@@ -21,23 +21,8 @@
               "icon": "lucide-file",
               "title": "Temp note"
             }
-          },
-          {
-            "id": "e6452a222073c5e4",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Temp note.md",
-                "bFile": "Temp note.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Temp note  (Working Tree)"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 318.5
+    "width": 264.5
   },
   "right": {
     "id": "c4863aa7eb52dd74",
@@ -201,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,7 +203,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e6452a222073c5e4",
+  "active": "1ba4691ec4a632df",
   "lastOpenFiles": [
     "AI Slops/Test planner, generator, healer.md",
     "Linux/macos.md",

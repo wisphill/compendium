@@ -3,7 +3,7 @@ name: Update submodule in main blog
 on:
   push:
     branches:
-      - main  # Trigger on commits to main
+      - main # Trigger on commits to main
 
 jobs:
   update-submodule:
@@ -13,9 +13,9 @@ jobs:
       - name: Checkout yuu_academy
         uses: actions/checkout@v4
 
-      - name: Checkout blog repo
+      - name: Checkout wisphill.github.io repo
         run: |
-          git clone --recurse-submodules https://github.com/wisphill/blog.git
+          git clone --recurse-submodules https://github.com/wisphill/wisphill.github.io.git
           cd blog
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -23,7 +23,7 @@ jobs:
 
       - name: Commit and Push Submodule Update
         run: |
-          cd blog
+          cd wisphill.github.io
           git add yuu_academy
           git commit -m "Auto-update submodule reference to latest commit" || echo "No changes to commit"
-          git push https://x-access-token:${{ secrets.BLOG_PAT }}@github.com/wisphill/blog.git main
+          git push https://x-access-token:${{ secrets.BLOG_PAT }}@github.com/wisphill/wisphill.github.io.git main
