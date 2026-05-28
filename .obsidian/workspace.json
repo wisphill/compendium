@@ -26,15 +26,14 @@
             "id": "e6452a222073c5e4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "AI Slops/Test planner, generator, healer.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "aFile": "Temp note.md",
+                "bFile": "Temp note.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Test planner, generator, healer"
+              "icon": "diff",
+              "title": "Diff: Temp note  (Working Tree)"
             }
           }
         ],
@@ -218,8 +217,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5827b8b2e63efd5d",
+  "active": "e6452a222073c5e4",
   "lastOpenFiles": [
+    "AI Slops/Test planner, generator, healer.md",
     "Linux/macos.md",
     "Recovery codes & passwords/Okta.md",
     "Interview/Interview.md",
@@ -246,7 +246,6 @@
     "Devops/Local development.md",
     "Devops/Linux to Azure (Windows).md",
     "Devops/Linux.md",
-    "Chaos/Chaos Engineering.md",
     "Programming/Gaming",
     "AI Slops",
     "Programming/Golang",

@@ -19,12 +19,3 @@ journalctl
 curl verbose
 ps aux | grep to check the command, configuration file when running service.
 
-
-Warp + ClaudeCode
-
-Agents do BMS define to choose which agents to run
-
-![[Pasted image 20260320150930.png]]
-
-
-
