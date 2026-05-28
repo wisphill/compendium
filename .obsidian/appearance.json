@@ -1,0 +1,12 @@
+{
+  "accentColor": "#923720",
+  "textFontFamily": "IBM Plex Mono",
+  "interfaceFontFamily": "",
+  "baseFontSize": 15,
+  "theme": "moonstone",
+  "cssTheme": "",
+  "nativeMenus": true,
+  "showViewHeader": true,
+  "baseFontSizeAction": true,
+  "showRibbon": true
+}

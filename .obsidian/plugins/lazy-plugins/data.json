@@ -1,0 +1,78 @@
+{
+  "dualConfigs": true,
+  "showConsoleLog": false,
+  "desktop": {
+    "shortDelaySeconds": 5,
+    "longDelaySeconds": 15,
+    "delayBetweenPlugins": 40,
+    "defaultStartupType": null,
+    "showDescriptions": false,
+    "enableDependencies": false,
+    "plugins": {
+      "obsidian-excalidraw-plugin": {
+        "startupType": "instant"
+      },
+      "file-explorer-note-count": {
+        "startupType": "disabled"
+      },
+      "file-tree-alternative": {
+        "startupType": "disabled"
+      },
+      "notebook-navigator": {
+        "startupType": "instant"
+      },
+      "obsidian-style-settings": {
+        "startupType": "instant"
+      },
+      "iconic": {
+        "startupType": "disabled"
+      },
+      "ink": {
+        "startupType": "instant"
+      },
+      "obsidian-plugin-toc": {
+        "startupType": "instant"
+      },
+      "automatic-table-of-contents": {
+        "startupType": "instant"
+      },
+      "obsidian-git": {
+        "startupType": "instant"
+      }
+    }
+  },
+  "mobile": {
+    "shortDelaySeconds": 5,
+    "longDelaySeconds": 15,
+    "delayBetweenPlugins": 40,
+    "defaultStartupType": null,
+    "showDescriptions": false,
+    "enableDependencies": false,
+    "plugins": {
+      "obsidian-excalidraw-plugin": {
+        "startupType": "instant"
+      },
+      "file-explorer-note-count": {
+        "startupType": "disabled"
+      },
+      "file-tree-alternative": {
+        "startupType": "disabled"
+      },
+      "notebook-navigator": {
+        "startupType": "instant"
+      },
+      "obsidian-style-settings": {
+        "startupType": "disabled"
+      },
+      "iconic": {
+        "startupType": "disabled"
+      },
+      "ink": {
+        "startupType": "instant"
+      },
+      "automatic-table-of-contents": {
+        "startupType": "instant"
+      }
+    }
+  }
+}

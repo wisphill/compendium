@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "ad8a11c93731daf1",
+    "type": "split",
+    "children": [
+      {
+        "id": "a8b317aec97542ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c1532e00d8dcb13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devops/Gaming websocket.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Gaming websocket"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e8352208c9571b58",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "5cc0b598ef1536b4",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "9eea3fa06cbf6804",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "142a07013f393971",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "624d08f600e6311b",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      },
+      {
+        "id": "2103bfcfe118a5cf",
+        "type": "leaf",
+        "state": {
+          "type": "notebook-navigator",
+          "state": {},
+          "icon": "notebook",
+          "title": "Notebook Navigator"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "a21609bf08baa015",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "bf46124f413cc794",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "C Sharp/C Sharp 101.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "d982a788298bc297",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "ac6569964a797a50",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "notebook-navigator:Notebook Navigator": false,
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "5c1532e00d8dcb13",
+  "lastOpenFiles": [
+    "Excalidraw/Gaming web socket.md",
+    "Devops/Gaming websocket.md",
+    "Devops/Helm.md",
+    "Devops/Jenkins, CI-CD.md",
+    "Devops/K8S Cheatsheet.md",
+    "Devops/NFS, EBS, Volume terminologies.md",
+    "Devops/Setup K8S server on the Windows.md",
+    "Devops/Prometheous.md",
+    "Devops/Docker.md",
+    "Programming/Algorithm/Exactly-one delivery.md",
+    "Programming/Algorithm/CSharp.md",
+    "Programming/Gaming/Tools.md",
+    "Recovery codes & passwords/Okta.md",
+    "Programming/Gaming",
+    "Password.md",
+    "Interview/Interview.md",
+    "Programming/Stack, Heap, Rust and Go.md",
+    "Chaos/Chaos Engineering.md",
+    "System Design/Design Patterns.md",
+    "System Design/Architecture.md",
+    "System Design/SFTP Server + Reconciliation.md",
+    "System Design/CI, CD for the Unity Games.md",
+    "Devops/Linux.md",
+    "Devops/Netfilter - iptables, nftables.md",
+    "Devops/K8S components and problems.md",
+    "Excalidraw/Drawing 2023-01-09 23.53.45.excalidraw.md",
+    "Devops/Terraform, Pulumi, IAC.md",
+    "Ink/Drawing/2025.12.27 - 3.45am.drawing",
+    "Ink/Drawing",
+    "Ink",
+    "Clown - LotM Vol. 1.pdf"
+  ]
+}
