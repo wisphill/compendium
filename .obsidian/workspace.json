@@ -81,11 +81,12 @@
             "state": {
               "type": "notebook-navigator",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "notebook-navigator"
+              "icon": "notebook",
+              "title": "Notebook Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -177,8 +178,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -203,7 +204,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1ba4691ec4a632df",
+  "active": "f3924a23c8db68fe",
   "lastOpenFiles": [
     "AI Slops/Test planner, generator, healer.md",
     "Linux/macos.md",
