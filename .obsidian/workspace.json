@@ -6,7 +6,6 @@
       {
         "id": "0474dfc427a88fae",
         "type": "tabs",
-        "dimension": 61.572438162544174,
         "children": [
           {
             "id": "1ba4691ec4a632df",
@@ -21,53 +20,7 @@
               },
               "icon": "lucide-file",
               "title": "index"
-            },
-            "group": "39e3614a81984565"
-          }
-        ]
-      },
-      {
-        "id": "c3470215af5e67df",
-        "type": "tabs",
-        "dimension": 38.42756183745583,
-        "children": [
-          {
-            "id": "455e046b0c76c8b1",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "index.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": false
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph of index"
-            },
-            "group": "39e3614a81984565"
+            }
           }
         ]
       }
@@ -205,20 +158,6 @@
             }
           },
           {
-            "id": "9b9d8a7c2a58d9db",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-ghost",
-              "title": "all-properties"
-            }
-          },
-          {
             "id": "b7978ee6e328204c",
             "type": "leaf",
             "state": {
@@ -229,7 +168,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -249,8 +188,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1ba4691ec4a632df",
+  "active": "b7978ee6e328204c",
   "lastOpenFiles": [
+    "index.md",
     "Interview/14-5.md",
     "Excalidraw/Redshift Spectrum.excalidraw.md",
     "Excalidraw/Redshift.excalidraw.md",
@@ -276,7 +216,6 @@
     "Excalidraw/Athena.excalidraw.md",
     "Excalidraw/AWS Storage Gateway.excalidraw.md",
     "Excalidraw/attempts.excalidraw.md",
-    "Excalidraw/ASG Standby statuses.excalidraw.md",
     "Blender",
     "Programming/Gaming",
     "AI Slops",
