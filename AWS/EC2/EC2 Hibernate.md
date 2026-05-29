@@ -2,7 +2,6 @@
 layout: post
 description: Hibernate mechanism on the AWS EC2
 ---
-
 #aws #ec2 #hibernate
 
 ![[EC2 statuses.excalidraw|600 x400]]

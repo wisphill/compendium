@@ -2,7 +2,6 @@
 layout: post
 description: Use EC2 User Data to customize and pre-run some script to reduce the boot time of the instance.
 ---
-
 #aws #ec2 #ec2_user_data #user_data
 
 Use EC2 User Data to customize and pre-run some script to reduce the boot time of the instance.

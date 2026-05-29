@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "AWS/EC2/ECS Execution Command.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "ECS Execution Command"
             }
           }
         ]
@@ -166,13 +166,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "614f3ad516bd03ec",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 277.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,47 +195,48 @@
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "notebook-navigator:Notebook Navigator": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "909d0c562a614cb0",
   "lastOpenFiles": [
-    "Excalidraw/AMS.excalidraw.md",
-    "Excalidraw/Athena.excalidraw.md",
-    "Excalidraw/ASG Standby statuses.excalidraw.md",
-    "Excalidraw/AWS Storage Gateway.excalidraw.md",
-    "Excalidraw/AWS subnets.excalidraw.md",
-    "Excalidraw/EC2 docker.excalidraw.md",
-    "Excalidraw/EC2 same rack same Az.excalidraw.md",
-    "Excalidraw/EC2 statuses.excalidraw.md",
-    "Excalidraw/ECS auto scaling.excalidraw.md",
-    "Excalidraw/ECS Cluster.excalidraw.md",
-    "Excalidraw/ECS.excalidraw.md",
-    "Excalidraw/Fanout pattern by using SNS.excalidraw.md",
-    "Excalidraw/Game Github Runner Polling.excalidraw.md",
-    "Excalidraw/Gaming web socket.excalidraw.md",
-    "Excalidraw/Glue Catalog.excalidraw.md",
-    "Excalidraw/Glue integrated with Athena.excalidraw.md",
-    "Excalidraw/Glue integrated with Data warehouse.excalidraw.md",
-    "Excalidraw/GWLB.excalidraw.md",
-    "Excalidraw/IAM Evaluation.excalidraw.md",
-    "Excalidraw/Identity Center.excalidraw.md",
-    "Excalidraw/Internet gateway.excalidraw.md",
-    "Excalidraw/Internet GW.excalidraw.md",
-    "Excalidraw/Ipay88 merchant void MDR fee.excalidraw.md",
-    "Excalidraw/IPSec VPN.excalidraw.md",
-    "Excalidraw/K8S simple diagram.excalidraw.md",
-    "Excalidraw/Kinesis data analytics.excalidraw.md",
+    "AWS/EC2/EC2 User Data.md",
+    "AWS/EC2/EC2 Tools.md",
+    "AWS/EC2/EC2 SSH && Instance Connect.md",
+    "AWS/EC2/EC2 Spot Instance and Spot Fleet.md",
+    "AWS/EC2/EC2 Security Group and Classic Ports.md",
+    "AWS/EC2/EC2 Public Private IP and Elastic IP.md",
+    "AWS/EC2/EC2 Placement Group.md",
+    "AWS/EC2/EC2 Instance Purchase Options.md",
+    "AWS/EC2/EC2 Hibernate.md",
+    "AWS/EC2/EC2 ENI.md",
+    "AWS/EC2/EC2 EBS.md",
+    "AWS/EC2/EC2 Basics.md",
+    "AWS/EC2/EC2 AMI.md",
+    "AWS/EC2/EC2 (EFS, Instance Store).md",
+    "AWS/EC2/AWS Inspector.md",
+    "AWS/Analytics/Redshift.md",
+    "AWS/Analytics/Quicksight.md",
+    "AWS/Analytics/MSK.md",
+    "AWS/Analytics/Lake Formation.md",
+    "AWS/Analytics/Kinesis Data Analytics.md",
+    "AWS/Analytics/Glue.md",
+    "AWS/Analytics/EMR.md",
+    "Programming/Go/Golang.md",
+    "AWS/Analytics/Big Data Ingestion Pipeline.md",
+    "AWS/Analytics/AWS OpenSearch.md",
+    "AWS/Analytics/Athena.md",
+    "AWS/Analytics",
     "Blender",
     "Programming/Gaming",
     "AI Slops",
-    "Programming/Golang",
+    "Programming/Go",
     "Programming/NodeJS",
     "Programming/Frontend",
     "Pasted image 20260320150930.png",
     "Recovery codes & passwords",
     "Chaos",
-    "Programming/Algorithm",
-    "Programming/C Sharp"
+    "Programming/Algorithm"
   ]
 }

@@ -2,7 +2,6 @@
 layout: post
 description: Placement Group is a strategy to define how EC2 instances can be placed in the AWS infrastructure. It is like a mechanism how we group our EC2 instances.
 ---
-
 #aws #ec2 #placement_group #group #placement
 
 Placement Group is a strategy to define how EC2 instances can be placed in the AWS infrastructure. It is like a mechanism how we group our EC2 instances.

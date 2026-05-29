@@ -2,7 +2,6 @@
 layout: post
 description: EBS is Elastic Block Store, and it is the network drive and it can be attached to the instance while they run
 ---
-
 #ec2 #ebs #aws 
 
 ### EBS

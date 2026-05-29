@@ -1,7 +1,7 @@
 ---
 title: Welcome to the Wisp Hill!
 ---
-Here is # 📚 Compendium
+Here is 📚 Compendium
 
 > A comprehensive knowledge base covering cloud infrastructure, DevOps, system design, and more.
 

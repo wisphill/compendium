@@ -1,4 +1,5 @@
 #azure 
+
 NLB, ALB -> Azure LB (layer 4, 7)
 ECS -> Azure Container Instance
 ECR -> Azure Container Registries

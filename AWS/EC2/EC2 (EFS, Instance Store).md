@@ -2,7 +2,6 @@
 layout: post
 description: Comparisons between all EC2 storage solutions
 ---
-
 #ec2 #ebs #efs #instance_store #aws 
 
 ### EFS

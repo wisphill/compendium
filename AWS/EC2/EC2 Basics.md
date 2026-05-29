@@ -2,7 +2,6 @@
 layout: post
 description: All basic features of the EC2
 ---
-
 #aws #ec2 
 
 ### Elastic Compute Cloud is the EC2, 

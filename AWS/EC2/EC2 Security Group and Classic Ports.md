@@ -2,7 +2,6 @@
 layout: post
 description: Basic features for the EC2 security group
 ---
-
 #aws #ec2 #sg #security_group 
 
 Security group is the fundamental of network in AWS, it is kinda like a firewall and control inbound and outbound traffic to EC2 instances
