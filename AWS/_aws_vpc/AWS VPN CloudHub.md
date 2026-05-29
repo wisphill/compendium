@@ -12,4 +12,4 @@ Few specifications:
 - The AWS VGW will advertise the appropriate route with (BGP prefix) over the VPN connection, then remote network will receive the routing advertisements and can connect to others.
 - The ASN for each remote network has to be unique, and the IP ranges is not overlapped.
 
-![[Drawing 2023-01-14 17.12.08.excalidraw | 800x500]]
+![[IPSec VPN.excalidraw| 800x500]]

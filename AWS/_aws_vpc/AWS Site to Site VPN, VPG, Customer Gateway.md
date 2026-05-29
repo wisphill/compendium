@@ -30,4 +30,4 @@ The first component is VPG: Virtual Private Gateway
 ### Security groups
 - If we need to ping from customer side to our VPC, we need to setup security group to allow ICMP for ping.
 
-![[Drawing 2023-01-14 16.51.34.excalidraw | 600x400 ]]
+![[Virtual gateway.excalidraw| 600x400 ]]

@@ -14,7 +14,7 @@ Placement Group is a strategy to define how EC2 instances can be placed in the A
 
 ### Cluster
 All instances in the same Rack and Same AZ
-![[Drawing 2023-02-05 15.57.15.excalidraw | 600x300]]
+![[EC2 same rack same Az.excalidraw| 600x300]]
 
 Pros: Great network
 Cons: Fail all at the same time
@@ -24,7 +24,7 @@ Use case:
 
 ### Spread
 Spread all instances to many hardwares in multiple AZs. So if there are 2 instances on 2 hardwares. If one of those hardware fails, it does not impact to other intances.
-![[Drawing 2023-02-05 15.52.37.excalidraw | 600x400]]
+![[Multi AZ.excalidraw| 600x400]]
 
 Pros:
 - Reduce risk for simutaneous failure
@@ -39,7 +39,7 @@ Use case:
 ### Partition
 Spread all instances to many rack (partition) in multiple AZs in same region
 
-![[Drawing 2023-02-05 15.46.47.excalidraw |600x400]]
+![[Rack.excalidraw|600x400]]
 
 
 Specifications:

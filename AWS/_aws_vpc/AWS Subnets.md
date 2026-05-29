@@ -19,4 +19,4 @@ Those above ips cannot be used, and already be reserved by AWS.
 Based on number of ip addresses, we can calculate to find the suitable subnet. For example, we need 29 ip addresses. So 2^5 - 5 = 27 ip addresses. So the result should be
 10.x.0.0/26.
 
-![[Drawing 2023-03-25 14.23.14_0.excalidraw|660]]
+![[AWS subnets.excalidraw|660]]

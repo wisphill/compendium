@@ -2,7 +2,7 @@
 
 ```table-of-contents
 ```
-![[Kubernetes | 800x800]]
+![[Kubernetes.excalidraw| 800x800]]
 
 
 ### Etcd - protecting the brain

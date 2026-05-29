@@ -12,5 +12,5 @@ layout: post
 - IPv6 is always a public ip address.
 
 
-![[Drawing 2023-01-14 14.46.42.excalidraw|600x400|left]]
+![[Internet gateway.excalidraw|600x400|left]]
 

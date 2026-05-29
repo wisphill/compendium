@@ -6,21 +6,65 @@
       {
         "id": "0474dfc427a88fae",
         "type": "tabs",
+        "dimension": 61.572438162544174,
         "children": [
           {
             "id": "1ba4691ec4a632df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Temp note.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Excalidraw/AWS subnets.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Temp note"
-            }
+              "icon": "excalidraw-icon",
+              "title": "AWS subnets.excalidraw"
+            },
+            "group": "39e3614a81984565"
+          }
+        ]
+      },
+      {
+        "id": "c3470215af5e67df",
+        "type": "tabs",
+        "dimension": 38.42756183745583,
+        "children": [
+          {
+            "id": "455e046b0c76c8b1",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Excalidraw/AWS subnets.excalidraw.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of AWS subnets.excalidraw"
+            },
+            "group": "39e3614a81984565"
           }
         ]
       }
@@ -85,8 +129,7 @@
               "title": "Notebook Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -178,8 +221,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -187,8 +230,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,35 +246,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f3924a23c8db68fe",
+  "active": "1ba4691ec4a632df",
   "lastOpenFiles": [
-    "AI Slops/Test planner, generator, healer.md",
-    "Linux/macos.md",
-    "Recovery codes & passwords/Okta.md",
-    "Interview/Interview.md",
-    "Temp note.md",
-    "Interview/14-5.md",
-    "AWS/Network debugging.md",
-    "Devops/K8S components and problems.md",
-    "Devops/Docker.md",
-    "Devops/Networking Docker, Linux.md",
+    "Excalidraw/Drawing 2023-03-25 14.23.14.excalidraw.md",
+    "Excalidraw/Internet GW.excalidraw.md",
+    "Excalidraw/NACL and SG.excalidraw.md",
+    "AWS/_aws_vpc/Network ACL and security groups.md",
+    "Excalidraw/EC2 docker.excalidraw.md",
+    "Excalidraw/EC2 statuses.excalidraw.md",
+    "Excalidraw/EC2 same rack same Az.excalidraw.md",
+    "Excalidraw/Multi AZ.excalidraw.md",
+    "Excalidraw/Rack.excalidraw.md",
+    "Excalidraw/Drawing 2023-01-31 18.12.09.excalidraw.md",
+    "Excalidraw/Transit VIF.excalidraw.md",
+    "Excalidraw/Transit GW with attachments.excalidraw.md",
+    "Excalidraw/Transit GW.excalidraw.md",
+    "Excalidraw/DX with Backup.excalidraw.md",
+    "Excalidraw/Unknown.excalidraw.md",
+    "Excalidraw/Drawing 2023-04-13 11.31.25.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-18 17.20.05_0.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-18 17.20.05.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-26 09.34.14.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-26 14.34.47.excalidraw.md",
+    "Excalidraw/Setel K8S.excalidraw.md",
+    "Excalidraw/Tiny URL.excalidraw.md",
+    "Excalidraw/DX Critical workloads.excalidraw.md",
+    "Excalidraw/DX.excalidraw.md",
+    "Excalidraw/IPSec VPN.excalidraw.md",
+    "Excalidraw/Virtual gateway.excalidraw.md",
     "Blender",
-    "Devops/Prometheous.md",
-    "Devops/NFS, EBS, Volume terminologies.md",
-    "Devops/Netfilter - iptables, nftables.md",
-    "Devops/Misc.md",
-    "Devops/Gaming websocket.md",
-    "Devops/Helm.md",
-    "Devops/Jenkins, CI-CD.md",
-    "Devops/K8S Cheatsheet.md",
-    "Devops/Setup K8S server on the Windows.md",
-    "Devops/TLS Handshake, Termination.md",
-    "Devops/Terraform, Pulumi, IAC.md",
-    "Devops/Vim Cheatsheet.md",
-    "Devops/TODO - K8S terms and questions.md",
-    "Devops/Local development.md",
-    "Devops/Linux to Azure (Windows).md",
-    "Devops/Linux.md",
     "Programming/Gaming",
     "AI Slops",
     "Programming/Golang",

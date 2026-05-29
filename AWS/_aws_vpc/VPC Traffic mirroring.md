@@ -19,5 +19,5 @@ Use cases:
 - Security
 - Troubleshooting
 
-![[Drawing 2023-01-14 15.35.37.excalidraw | 600x400]]
+![[Traffic mirroring.excalidraw| 600x400]]
 

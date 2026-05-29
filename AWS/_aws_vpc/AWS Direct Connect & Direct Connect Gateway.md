@@ -22,7 +22,7 @@ We need to setup
 3. Setup private virtual interface (private VIF)  to access private resources (EC2)
 4. Setup public virtual interface (public VIF) to access public resources
 
-![[Drawing 2023-01-14 18.10.57.excalidraw|600x300]]
+![[DX.excalidraw|600x300]]
 
 
 ### Type of DX
@@ -37,11 +37,11 @@ We need to setup
 ### Resiliency, backup for critical workload
 - High resiliency: Multiple backup locations, for each location, we setup one DX connection to AWS.
 - Maximum resiliency:  Multiple backup locations, for each location, we setup more than one DX connection to AWS.
-![[Drawing 2023-01-14 18.35.19.excalidraw|800x800]]
+![[DX Critical workloads.excalidraw|800x800]]
 
 
 ### Problems about DX Cost
 - Setting up another DX Connection for backup can be expensive. So for another solution, we can setup Site to Site VPN Connection between AWS VPC and the remote network as a backup connection.
 
-![[Drawing 2023-01-14 18.43.21.excalidraw|600x250]]
+![[DX with Backup.excalidraw|600x250]]
 

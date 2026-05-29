@@ -1,1 +1,1 @@
-![[Reconciliation | 800x800]]
+![[Reconciliation.excalidraw| 800x800]]

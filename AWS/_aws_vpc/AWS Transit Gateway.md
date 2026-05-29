@@ -16,7 +16,7 @@ In the case we have multiple VPCs, and peer them each others, so the network top
 - Work with DX gateway, VPN connections
 - It it only service in AWS that supports IP Multicast
 
-![[Drawing 2023-01-21 20.14.15.excalidraw|600x400]]
+![[Transit GW.excalidraw|600x400]]
 
 
 
@@ -26,10 +26,10 @@ In the case we have multiple VPCs, and peer them each others, so the network top
 - ECMP: Equal cost multiple path routing
 - It is routing strategy to allow to forward a package over multiple best path. **(Noted)**
 - Use case: Create multiple Site to Site VPN connections to increase the bandwidth.
-![[Drawing 2023-01-21 20.21.23.excalidraw | 600x400]]
+![[Transit GW with attachments.excalidraw| 600x400]]
 
 ### Share DX Connect between multiple accounts
 
 Share a DX connection between multiple account and multiple VPCs
 
-![[Drawing 2023-01-21 20.34.39.excalidraw|600x400]]
+![[Transit VIF.excalidraw|600x400]]

@@ -7,7 +7,7 @@ layout: post
 
 ### Instance State
 
-![[Drawing 2023-04-11 18.10.03.excalidraw|660]]
+![[Unknown.excalidraw|660]]
 
 ### Health check
 - Health check is not performed for the Standby instances.

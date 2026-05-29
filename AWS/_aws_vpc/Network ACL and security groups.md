@@ -18,6 +18,6 @@ Network ACL is kinda similar with the security group, it will help to define and
 | ACL does the stateless inspection, it checks the package and does not know about the state, where the package comes from                                                                         |  SG does the stateful check, its knows the conversation of the package and states of the package                                                                                             |
 
 
-![[Drawing 2023-03-25 14.32.59.excalidraw|660]]
+![[NACL and SG.excalidraw|660]]
 
 

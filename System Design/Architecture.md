@@ -15,5 +15,5 @@ ECS & Microservice architecture
 
 
 Kubernetes and micro service architecture
-![[Drawing 2024-05-22 15.48.48.excalidraw | 1000x400]]
+![[K8S simple diagram.excalidraw| 1000x400]]
 

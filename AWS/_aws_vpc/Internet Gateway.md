@@ -10,7 +10,7 @@ https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html
 ## Internet Gateway
 Internet gateway is a VPC component, that is horizontal scaled, that allow connections between VPC and public internet, and because it's scaled, so we don't need to worry about its bandwitdth.
 
-![[Drawing 2023-03-25 14.25.41.excalidraw | 660]]
+![[Internet GW.excalidraw| 660]]
 
 An internet gateway allows the EC2 instance to connect to the public internet. Similarly, resource  in the public internet can connect back to the EC2 instance if your EC2 instance using Elastic ipv4 or ipv6.
 

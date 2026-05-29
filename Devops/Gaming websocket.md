@@ -1,1 +1,1 @@
-![[Gaming web socket | 800x800]]
+![[Gaming web socket.excalidraw| 800x800]]

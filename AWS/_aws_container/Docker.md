@@ -7,7 +7,7 @@ description: App are packaged in containers and can be run on any OS. Docker is 
 App are packaged in containers and can be run on any OS
 Docker is a software development platform to deploy apps
 Use cases: Micro-service, lift and shift app from on-premise machine to cloud.
-![[Drawing 2023-02-09 22.29.59.excalidraw|600x400]]
+![[EC2 docker.excalidraw|600x400]]
 
 ### Flow
 Dockerfile => build => Docker image => push/pull <=> ECR

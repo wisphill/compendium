@@ -5,7 +5,7 @@ description: Hibernate mechanism on the AWS EC2
 
 #aws #ec2 #hibernate
 
-![[Drawing 2023-02-05 16.14.43.excalidraw |600 x400]]
+![[EC2 statuses.excalidraw|600 x400]]
 
 ### EC2/machine states:
 - Stop: Data on disk is saved, kept intact on the next start

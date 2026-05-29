@@ -7,4 +7,4 @@
 - Forward raw events to the SQS/Redis/Kafka for later processing
 - Processors handle heavy works, publish result to the Redis channel before fanning out to the Websocket worker
 - Websocket worker as the source of the OBS stream
-![[Twitch BOT|800x800]]
+![[Twitch BOT.excalidraw|800x800]]
