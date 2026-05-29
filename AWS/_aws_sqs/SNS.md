@@ -22,7 +22,7 @@ AWS SNS is the service for pub/sub, fire and forget pattern, one producer and ma
 - SQS allows for: data assistence, delayed processing, retries of work
 - Cross-region Delivery
 
-![[Fanout pattern.excalidraw|600x400]]
+![[Fanout pattern by using SNS.excalidraw|600x400]]
 
 ### SNS FIFO
 It has the same features like SQS FIFO, it has limits, ordering (by groupID), and only SQS FIFO as subscribers

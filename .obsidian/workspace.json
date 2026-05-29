@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0474dfc427a88fae",
+        "id": "c92454262cf5e91f",
         "type": "tabs",
         "children": [
           {
-            "id": "1ba4691ec4a632df",
+            "id": "909d0c562a614cb0",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "split-diff-view",
               "state": {
-                "file": "Excalidraw/Virtual Gateway.excalidraw.md"
+                "aFile": "AWS/_aws_sqs/SNS.md",
+                "bFile": "AWS/_aws_sqs/SNS.md",
+                "aRef": ""
               },
-              "icon": "excalidraw-icon",
-              "title": "Virtual Gateway.excalidraw"
+              "icon": "diff",
+              "title": "Diff: SNS  (Working Tree)"
             }
           }
         ]
@@ -185,34 +187,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1ba4691ec4a632df",
+  "active": "909d0c562a614cb0",
   "lastOpenFiles": [
-    "Excalidraw/Twitch BOT.excalidraw.md",
-    "Excalidraw/Transit VIF.excalidraw.md",
-    "Excalidraw/Transit GW.excalidraw.md",
-    "Excalidraw/Transit GW with attachments.excalidraw.md",
-    "Excalidraw/Traffic mirroring.excalidraw.md",
-    "Excalidraw/TLS Handshake.excalidraw.md",
-    "Excalidraw/Tiny URL.excalidraw.md",
-    "Excalidraw/ShortenURL.excalidraw.md",
-    "Excalidraw/Setel K8S.excalidraw.md",
-    "Excalidraw/RPO RTO.excalidraw.md",
-    "Excalidraw/Redshift.excalidraw.md",
-    "Excalidraw/Redshift Spectrum.excalidraw.md",
-    "Excalidraw/Reconciliation.excalidraw.md",
-    "Excalidraw/Rack.excalidraw.md",
-    "Excalidraw/Public subnet.excalidraw.md",
-    "Excalidraw/OU Design.excalidraw.md",
-    "Excalidraw/OpenSearch with CloudWatch.excalidraw.md",
-    "Excalidraw/OpenSearch combined with DynamoDb.excalidraw.md",
-    "Excalidraw/NACL and SG.excalidraw.md",
-    "Excalidraw/Multi AZ.excalidraw.md",
-    "Excalidraw/Lake Formation.excalidraw.md",
-    "Excalidraw/Kubernetes.excalidraw.md",
-    "Excalidraw/Kinesis data analytics.excalidraw.md",
-    "Excalidraw/K8S simple diagram.excalidraw.md",
-    "Excalidraw/IPSec VPN.excalidraw.md",
+    "Excalidraw/EC2 docker.excalidraw.md",
+    "Excalidraw/EC2 same rack same Az.excalidraw.md",
+    "Excalidraw/EC2 statuses.excalidraw.md",
+    "Excalidraw/ECS auto scaling.excalidraw.md",
+    "Excalidraw/ECS Cluster.excalidraw.md",
+    "Excalidraw/ECS.excalidraw.md",
+    "Excalidraw/Fanout pattern by using SNS.excalidraw.md",
+    "Excalidraw/Game Github Runner Polling.excalidraw.md",
+    "Excalidraw/Gaming web socket.excalidraw.md",
+    "Excalidraw/Glue Catalog.excalidraw.md",
+    "Excalidraw/Glue integrated with Athena.excalidraw.md",
+    "Excalidraw/Glue integrated with Data warehouse.excalidraw.md",
+    "Excalidraw/GWLB.excalidraw.md",
+    "Excalidraw/IAM Evaluation.excalidraw.md",
+    "Excalidraw/Identity Center.excalidraw.md",
+    "Excalidraw/Internet gateway.excalidraw.md",
+    "Excalidraw/Internet GW.excalidraw.md",
     "Excalidraw/Ipay88 merchant void MDR fee.excalidraw.md",
+    "Excalidraw/IPSec VPN.excalidraw.md",
+    "Excalidraw/K8S simple diagram.excalidraw.md",
+    "Excalidraw/Kinesis data analytics.excalidraw.md",
+    "Excalidraw/Kubernetes.excalidraw.md",
+    "Excalidraw/Lake Formation.excalidraw.md",
+    "Excalidraw/Multi AZ.excalidraw.md",
+    "Excalidraw/NACL and SG.excalidraw.md",
+    "Excalidraw/OpenSearch combined with DynamoDb.excalidraw.md",
     "Blender",
     "Programming/Gaming",
     "AI Slops",
