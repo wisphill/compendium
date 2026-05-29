@@ -16,7 +16,7 @@ jobs:
       - name: Checkout wisphill.github.io repo
         run: |
           git clone --recurse-submodules https://github.com/wisphill/wisphill.github.io.git
-          cd blog
+          cd wisphill.github.io
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git submodule update --remote --merge
