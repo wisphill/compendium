@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "AWS/_aws_sqs/SNS.md",
-                "bFile": "AWS/_aws_sqs/SNS.md",
+                "aFile": ".obsidian/plugins/obsidian-excalidraw-plugin/data.json",
+                "bFile": ".obsidian/plugins/obsidian-excalidraw-plugin/data.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: SNS  (Working Tree)"
+              "title": "Diff: data.json  (Working Tree)"
             }
           }
         ]
@@ -189,6 +189,11 @@
   },
   "active": "909d0c562a614cb0",
   "lastOpenFiles": [
+    "Excalidraw/AMS.excalidraw.md",
+    "Excalidraw/Athena.excalidraw.md",
+    "Excalidraw/ASG Standby statuses.excalidraw.md",
+    "Excalidraw/AWS Storage Gateway.excalidraw.md",
+    "Excalidraw/AWS subnets.excalidraw.md",
     "Excalidraw/EC2 docker.excalidraw.md",
     "Excalidraw/EC2 same rack same Az.excalidraw.md",
     "Excalidraw/EC2 statuses.excalidraw.md",
@@ -210,11 +215,6 @@
     "Excalidraw/IPSec VPN.excalidraw.md",
     "Excalidraw/K8S simple diagram.excalidraw.md",
     "Excalidraw/Kinesis data analytics.excalidraw.md",
-    "Excalidraw/Kubernetes.excalidraw.md",
-    "Excalidraw/Lake Formation.excalidraw.md",
-    "Excalidraw/Multi AZ.excalidraw.md",
-    "Excalidraw/NACL and SG.excalidraw.md",
-    "Excalidraw/OpenSearch combined with DynamoDb.excalidraw.md",
     "Blender",
     "Programming/Gaming",
     "AI Slops",
