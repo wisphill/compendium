@@ -7,7 +7,7 @@ layout: post
 
 ### Instance State
 
-![[Unknown.excalidraw|660]]
+![[ASG Standby statuses.excalidraw|660]]
 
 ### Health check
 - Health check is not performed for the Standby instances.

@@ -25,7 +25,7 @@ AWS Organization is an organization that can include lots of AWS accounts and it
 
 
 ### Hierarchy
-![[Drawing 2023-03-02 17.52.41.excalidraw | 600x300]]
+![[OU Design.excalidraw| 600x300]]
 
 Management account: Full access
 Account A: Redshift denied

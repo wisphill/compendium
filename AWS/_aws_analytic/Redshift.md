@@ -12,7 +12,7 @@ Redshift is OLAP (online analytical processing) for analytic and data warehousin
 - vs Athena: It is more faster thanks to index.
 
 ### AWS Redshift Cluster
-![[Drawing 2023-03-03 16.58.53_0.excalidraw|600]]
+![[Redshift.excalidraw|600]]
 Notes: Can use Reserved Instances for cost-saving
 
 ### Snapshot and DR
@@ -22,9 +22,9 @@ Notes: Can use Reserved Instances for cost-saving
 - Can copy snapshot to other regions.
 
 ### Loading data to Redshift
-![[Drawing 2023-03-03 17.07.51.excalidraw|600]]
+![[Data flow to Redshift.excalidraw|600]]
 
 ### Redshift Spectrum
-![[Drawing 2023-03-03 17.13.04.excalidraw|600]]
+![[Redshift Spectrum.excalidraw|600]]
 Analyze data from S3 without importing to Redshift. Require more power to run.
 - Compare with Athena query, it's cost less effort & cost to implement if already using Redshift.

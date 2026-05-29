@@ -18,4 +18,4 @@ CLB: No additional charges, feature is disabled by default
 GWLB, NLB: Disabled, additional charge
 
 
-![[Drawing 2023-02-13 22.27.45.excalidraw|600x700]]
+![[Cross zone LB.excalidraw|600x700]]

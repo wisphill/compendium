@@ -12,12 +12,15 @@
             "id": "1ba4691ec4a632df",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/AWS subnets.excalidraw.md"
+                "file": "index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "excalidraw-icon",
-              "title": "AWS subnets.excalidraw"
+              "icon": "lucide-file",
+              "title": "index"
             },
             "group": "39e3614a81984565"
           }
@@ -34,7 +37,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Excalidraw/AWS subnets.excalidraw.md",
+                "file": "index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -62,7 +65,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of AWS subnets.excalidraw"
+              "title": "Graph of index"
             },
             "group": "39e3614a81984565"
           }
@@ -248,32 +251,32 @@
   },
   "active": "1ba4691ec4a632df",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2023-03-25 14.23.14.excalidraw.md",
-    "Excalidraw/Internet GW.excalidraw.md",
-    "Excalidraw/NACL and SG.excalidraw.md",
-    "AWS/_aws_vpc/Network ACL and security groups.md",
-    "Excalidraw/EC2 docker.excalidraw.md",
-    "Excalidraw/EC2 statuses.excalidraw.md",
-    "Excalidraw/EC2 same rack same Az.excalidraw.md",
-    "Excalidraw/Multi AZ.excalidraw.md",
-    "Excalidraw/Rack.excalidraw.md",
-    "Excalidraw/Drawing 2023-01-31 18.12.09.excalidraw.md",
-    "Excalidraw/Transit VIF.excalidraw.md",
-    "Excalidraw/Transit GW with attachments.excalidraw.md",
-    "Excalidraw/Transit GW.excalidraw.md",
+    "Interview/14-5.md",
+    "Excalidraw/Redshift Spectrum.excalidraw.md",
+    "Excalidraw/Redshift.excalidraw.md",
+    "AWS/_aws_analytic/AWS OpenSearch.md",
+    "Excalidraw/OpenSearch with CloudWatch.excalidraw.md",
+    "Excalidraw/OpenSearch combined with DynamoDb.excalidraw.md",
+    "Excalidraw/NACL.excalidraw.md",
+    "Excalidraw/LLM.excalidraw.md",
+    "Excalidraw/ECS.excalidraw.md",
     "Excalidraw/DX with Backup.excalidraw.md",
-    "Excalidraw/Unknown.excalidraw.md",
-    "Excalidraw/Drawing 2023-04-13 11.31.25.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-18 17.20.05_0.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-18 17.20.05.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-26 09.34.14.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-26 14.34.47.excalidraw.md",
-    "Excalidraw/Setel K8S.excalidraw.md",
-    "Excalidraw/Tiny URL.excalidraw.md",
-    "Excalidraw/DX Critical workloads.excalidraw.md",
-    "Excalidraw/DX.excalidraw.md",
-    "Excalidraw/IPSec VPN.excalidraw.md",
-    "Excalidraw/Virtual gateway.excalidraw.md",
+    "Excalidraw/Cross zone LB.excalidraw.md",
+    "Excalidraw/Control Tower.excalidraw.md",
+    "Excalidraw/Big data ingestion.excalidraw.md",
+    "Excalidraw/Bastion Host.excalidraw.md",
+    "Excalidraw/Bastion host access.excalidraw.md",
+    "AWS/_aws_vpc/Bastion Host.md",
+    "Excalidraw/AZ and Subnets.excalidraw.md",
+    "Excalidraw/Fanout pattern.excalidraw.md",
+    "Excalidraw/Glue integrated with Athena.excalidraw.md",
+    "AWS/_aws_analytic/Glue.md",
+    "Excalidraw/Glue integrated with Data warehouse.excalidraw.md",
+    "Excalidraw/Glue Catalog.excalidraw.md",
+    "Excalidraw/Athena.excalidraw.md",
+    "Excalidraw/AWS Storage Gateway.excalidraw.md",
+    "Excalidraw/attempts.excalidraw.md",
+    "Excalidraw/ASG Standby statuses.excalidraw.md",
     "Blender",
     "Programming/Gaming",
     "AI Slops",

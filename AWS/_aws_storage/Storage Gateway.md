@@ -24,7 +24,7 @@ Use cases:
 - FSx File Gateway (for file)
 - Tape Gateway (for tape device)
 
-![[Drawing 2023-03-05 22.32.32_0.excalidraw|660]]
+![[AWS Storage Gateway.excalidraw|660]]
 
 ### S3 File Gateway
 - Installs on-premise and access FS (using NFS, SMB) and connect to the S3 (via Storage Gateway on Cloud)

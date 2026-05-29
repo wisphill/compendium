@@ -19,7 +19,7 @@ Dockerfile => build => Docker image => push/pull <=> ECR
 4. ECR
 
 ### VM and Docker containers
-![[Drawing 2023-02-09 22.37.50.excalidraw |600x400]]
+![[Docker vs VM.excalidraw|600x400]]
 
 ### Docker components
 - Docker daemon. Usually installed with `docker` dep.

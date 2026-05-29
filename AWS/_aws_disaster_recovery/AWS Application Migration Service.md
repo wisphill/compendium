@@ -12,4 +12,4 @@ description: How to use AWS AMS to migrate to the EC2, and replicate them on AWS
 - Minimal downtime, reduced code
 - Using AWS Replication Agent
 
-![[Drawing 2023-03-08 22.42.42.excalidraw |680]]
+![[AMS.excalidraw|680]]

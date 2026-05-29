@@ -14,11 +14,11 @@ Amazon Opensearch is a successor to ElasticSearch and commonly to use as a compl
 - Not using SQL, using it own search language.
 
 ### Patterns with DynamoDB
-![[Drawing 2023-03-03 17.25.53.excalidraw |600]]
+![[OpenSearch combined with DynamoDb.excalidraw|600]]
 
 
 ### Log pattern with CW
-![[Drawing 2023-03-03 17.31.11.excalidraw|600]]
+![[OpenSearch with CloudWatch.excalidraw|600]]
 
 ### With Kinesis and Firehose
 Kinesis -> realtime to OpenSearch

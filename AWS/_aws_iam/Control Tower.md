@@ -18,4 +18,4 @@ It provides ongoing governance for ControlTower env.
 - Preventive GuardRail (it uses SCP for restriction)
 - Detective GuardRail (use AWS config) (to detect violation and remediate)
 
-![[Drawing 2023-03-02 22.19.06.excalidraw |600x400]]
+![[Control Tower.excalidraw|600x400]]

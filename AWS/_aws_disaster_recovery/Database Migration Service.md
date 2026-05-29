@@ -13,7 +13,7 @@ This is a service allows database migration from on-premise to AWS cloud, quickl
 
 AWS Schema Conversion Tool (SCT) is a tool to convert schema from one engine to another.
 
-![[Drawing 2023-03-07 18.08.56.excalidraw |680]]
+![[DMS.excalidraw|680]]
 
 ### Combinations
 - (S3 + DMS + Kinesis Data Stream) S3 can be the source of DMS, and the target of the DMS can be Kinesis Data Stream

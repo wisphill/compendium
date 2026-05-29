@@ -21,4 +21,4 @@ GWLB use GENEVE protocol on the port 6081
 - EC2 Instances for 3rd appliances.
 - Private IPs
 
-![[Drawing 2023-02-13 21.57.09.excalidraw | 600x500]]
+![[GWLB.excalidraw| 600x500]]

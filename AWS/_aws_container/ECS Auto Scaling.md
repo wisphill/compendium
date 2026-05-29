@@ -27,7 +27,7 @@ Type of auto scaling
   - Auto scale instances if RAM or CPU is missing
   - Scale infrastructure for ECS task
 
-![[Drawing 2023-02-12 23.02.49.excalidraw | 600x400]]
+![[ECS auto scaling.excalidraw| 600x400]]
 
 ### Some solution architecture
 - Using with EventBridge for data processing

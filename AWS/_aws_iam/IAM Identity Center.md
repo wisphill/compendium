@@ -24,4 +24,4 @@ Then we can assign permission set to specific users.
 - Application assignment: SSO access to multiple application
 - Attribute-based access control (ABAC): Based on user attribute (level, title,..) stored in Identity Center Store.
 
-![[Drawing 2023-03-02 21.55.13.excalidraw |600x600]]
+![[Identity Center.excalidraw|600x600]]

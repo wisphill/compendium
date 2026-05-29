@@ -13,7 +13,7 @@ Launch a container on AWS is Launching ECS task on ECS cluster
 - We must provision and maintain our infrastructure (EC2 instances)
 - In each EC2 Instance, must be launched a ECS agent.
 - AWS take care stopping/ starting the container
-![[Drawing 2023-02-09 22.54.44.excalidraw | 600x600]]
+![[ECS.excalidraw| 600x600]]
 
 ### Farget Launch Type
 It's ECS Serverless, we don't need to manage our infrastructure and server. It's serverless. No EC2 instances to be managed.
@@ -30,7 +30,7 @@ ECS Task role
 - For both EC2 launch type and Fargate
 - Defined in the task definition of ECS
 
-![[Drawing 2023-02-09 23.07.36.excalidraw | 600x400]]
+![[ECS Cluster.excalidraw| 600x400]]
 
 
 ## Load Balancer integrations

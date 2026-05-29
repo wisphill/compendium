@@ -11,5 +11,5 @@ LakeFormation is central place to have all data for analytic purpose.
 - Built on top by Glue.
 
 ### Diagram
-![[Drawing 2023-03-03 18.11.44.excalidraw|660]]
+![[Lake Formation.excalidraw|660]]
 

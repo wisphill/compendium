@@ -18,4 +18,4 @@ Auth is proxy via AD connector
 ### Simple AD
 Fully managed by AWS, cannot connect to On-premise AD
 
-![[Drawing 2023-03-02 22.06.07.excalidraw|600x700]]
+![[AWS with AD.excalidraw|600x700]]

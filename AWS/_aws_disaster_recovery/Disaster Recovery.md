@@ -11,7 +11,7 @@ Disaster is any event that happens and impacts to the production business or fin
 - RTO: Recovery Time Objective
 - We can use route53 for switching dns for failover
 
-![[Drawing 2023-03-08 23.01.16.excalidraw |600]]
+![[RPO RTO.excalidraw|600]]
 
 ### Faster RTO more money by order
 1. Backup and Restore
