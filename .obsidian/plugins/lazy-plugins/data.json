@@ -38,6 +38,9 @@
       },
       "obsidian-git": {
         "startupType": "instant"
+      },
+      "mermaid-tools": {
+        "startupType": "instant"
       }
     }
   },

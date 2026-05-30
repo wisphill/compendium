@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/EC2/ECS Execution Command.md",
+                "file": "Linux/Tools.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ECS Execution Command"
+              "title": "Tools"
             }
           }
         ]
@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 285.5
   },
   "right": {
     "id": "c4863aa7eb52dd74",
@@ -199,8 +199,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "909d0c562a614cb0",
+  "active": "5827b8b2e63efd5d",
   "lastOpenFiles": [
+    "Linux/macos.md",
+    "Linux/Tools.md",
+    "Linux/Spoofing.md",
+    "Linux/Commands dictionary.md",
+    "Linux/Namespace & Cgroups.md",
+    "AWS/EC2/ECS Execution Command.md",
     "AWS/EC2/EC2 User Data.md",
     "AWS/EC2/EC2 Tools.md",
     "AWS/EC2/EC2 SSH && Instance Connect.md",
@@ -221,12 +227,6 @@
     "AWS/Analytics/MSK.md",
     "AWS/Analytics/Lake Formation.md",
     "AWS/Analytics/Kinesis Data Analytics.md",
-    "AWS/Analytics/Glue.md",
-    "AWS/Analytics/EMR.md",
-    "Programming/Go/Golang.md",
-    "AWS/Analytics/Big Data Ingestion Pipeline.md",
-    "AWS/Analytics/AWS OpenSearch.md",
-    "AWS/Analytics/Athena.md",
     "AWS/Analytics",
     "Blender",
     "Programming/Gaming",

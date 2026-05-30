@@ -1,4 +1,4 @@
-pmset -g assertions
+#macos
 
 | Tools & brew                                            | Reference                                            |
 | ------------------------------------------------------- | ---------------------------------------------------- |
@@ -16,10 +16,19 @@ pmset -g assertions
 | kubectl                                                 |                                                      |
 | Using grafana.127.0.0.1.nip.io                          | for the host-based routing                           |
 
+### Bugs checking
+```
+journalctl
+curl verbose
+ps aux | grep to check the command, configuration file when running service.
+```
 
+### Manage idle processes
+```
+pmset -g assertions
+```
 
-
-
+### Terminal shortcut list
 ```bash
 TERMINAL Shortcuts Lists:
 
