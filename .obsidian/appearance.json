@@ -1,7 +1,7 @@
 {
   "accentColor": "#923720",
   "textFontFamily": "IBM Plex Mono",
-  "interfaceFontFamily": "",
+  "interfaceFontFamily": "Google Sans 17pt",
   "baseFontSize": 15,
   "theme": "moonstone",
   "cssTheme": "",
