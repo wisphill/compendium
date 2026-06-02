@@ -1,5 +1,6 @@
 ---
 title: Welcome to the Wisp Hill!
+modified: Jun 01, 2026
 ---
 >Here is the 📚 Phil's compendium, where I put all my knowledge, notes covering infrastructure, DevOps, System Design, Unity, Blender, and more. 
 
