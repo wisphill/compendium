@@ -199,8 +199,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5827b8b2e63efd5d",
+  "active": "909d0c562a614cb0",
   "lastOpenFiles": [
+    "Chaos/Chaos Engineering.md",
+    "index.md",
     "Unity",
     "English/Tenses.md",
     "Linux/Spoofing.md",
@@ -226,7 +228,6 @@
     "AWS/EC2/AWS Inspector.md",
     "AWS/Analytics/Redshift.md",
     "AWS/Analytics/Quicksight.md",
-    "AWS/Analytics/MSK.md",
     "AWS/Analytics",
     "Unity",
     "Programming/Gaming",
@@ -236,7 +237,6 @@
     "Programming/Frontend",
     "Pasted image 20260320150930.png",
     "Recovery codes & passwords",
-    "Chaos",
-    "Programming/Algorithm"
+    "Chaos"
   ]
 }
