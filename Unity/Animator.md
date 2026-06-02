@@ -1,3 +1,7 @@
+---
+title: Animator
+modified: Jun 01, 2026
+---
 #unity #avatar #animation
 ```table-of-contents
 ```
