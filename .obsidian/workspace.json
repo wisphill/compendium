@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Programming/Database comparisons.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Database comparisons"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#network",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,6 +201,17 @@
   },
   "active": "78214b1f51df0cc8",
   "lastOpenFiles": [
+    "System Design/TODO - Twitch - Room chat real time.md",
+    "Programming/Database comparisons.md",
+    "System Design/Shorten URL.md",
+    "System Design/SFTP Server + Reconciliation.md",
+    "System Design/Migrate data on prod without downtime.md",
+    "System Design/Redis consistent hashing, hash slots.md",
+    "Excalidraw/Athena.excalidraw.md",
+    "Excalidraw/ASG Standby statuses.excalidraw.md",
+    "Excalidraw/AMS.excalidraw.md",
+    "AWS/DB/Database.md",
+    "index.md",
     "Unity/Animator.md",
     "English/Tenses.md",
     "Unity",
@@ -217,17 +228,6 @@
     "AWS/EC2/EC2 Security Group and Classic Ports.md",
     "AWS/EC2/EC2 Public Private IP and Elastic IP.md",
     "AWS/EC2/EC2 Placement Group.md",
-    "AWS/EC2/EC2 Instance Purchase Options.md",
-    "AWS/EC2/EC2 Hibernate.md",
-    "AWS/EC2/EC2 ENI.md",
-    "AWS/EC2/EC2 EBS.md",
-    "AWS/EC2/EC2 Basics.md",
-    "AWS/EC2/EC2 AMI.md",
-    "AWS/EC2/EC2 (EFS, Instance Store).md",
-    "AWS/EC2/AWS Inspector.md",
-    "AWS/Analytics/Redshift.md",
-    "AWS/Analytics/Quicksight.md",
-    "AWS/Analytics/MSK.md",
     "AWS/Analytics",
     "Blender",
     "Programming/Gaming",
