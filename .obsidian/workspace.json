@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "concurr",
+                "query": "tag:#comparisions",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,8 @@
               "title": "Notebook Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -201,8 +202,9 @@
   },
   "active": "78214b1f51df0cc8",
   "lastOpenFiles": [
-    "System Design/TODO - Twitch - Room chat real time.md",
+    "AWS/ASG/Launch Template.md",
     "Programming/Database comparisons.md",
+    "System Design/TODO - Twitch - Room chat real time.md",
     "System Design/Shorten URL.md",
     "System Design/SFTP Server + Reconciliation.md",
     "System Design/Migrate data on prod without downtime.md",
@@ -227,7 +229,6 @@
     "AWS/EC2/EC2 Spot Instance and Spot Fleet.md",
     "AWS/EC2/EC2 Security Group and Classic Ports.md",
     "AWS/EC2/EC2 Public Private IP and Elastic IP.md",
-    "AWS/EC2/EC2 Placement Group.md",
     "AWS/Analytics",
     "Blender",
     "Programming/Gaming",

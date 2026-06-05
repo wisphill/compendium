@@ -1,7 +1,7 @@
 ---
 modified: Jun 02, 2026
 ---
-#database #comparisions 
+#database #comparisons
 ```table-of-contents
 ```
 ## Terminologies
@@ -14,7 +14,7 @@ modified: Jun 02, 2026
 - The database uses **CAS (compare and set)** mechanism to compare **the current version of the record** in the database and the **copy version of the record in the transaction**. So the conflicts would be resolved
 
 ### 3. Optimistic lock and pessimistic lock
-##### Pessimistic lock
+#### Pessimistic lock
 - Just locking when the transaction starts using mutex, table lock, row lock. 
 - **S LOCK**: Shared lock, engine requires this lock when calling the READ actions (SELECT).
 - **X lock**: Exclusive lock, engine requires this lock when calling UPDATE, CREATE actions.
@@ -23,13 +23,13 @@ modified: Jun 02, 2026
 - Both X lock and S lock are applied on the row level, to protect the row.
 - The range lock, gap lock, predicted lock are applied on the index, to protect a range. Range lock won't work effectively without the database indexes.
 - X lock and S lock are mutual exclusive, if a row are protected by S lock, it cannot apply a X lock, the command requires the X lock will be in the engine queues.
-##### Optimistic lock
+#### Optimistic lock
 - Using CAS, check version and retry.
 - Better for WRITE
 
 ### 4. Isolation levels
 Isolation level is applied on the transaction when it's initialized.
-##### Types:
+#### Types
 1. **READ_UNCOMMITED**: Set the X lock on rows for the lifetime of the transaction (default for most databases). Prevent multiple writes. *All read query in other transaction still can be run because it does not require any S lock.* So the dirty read problem can happen. 
 2. **READ_COMMITTED**: Set the X lock for lifetime of the transaction, apply the S lock for all READ query and release immediately after that. So all read queries are **blocked by the uncommitted WRITE**
 3. **REPEATABLE READ**: Set the X lock for lifetime of the transaction, Set the S lock for lifetime of the transaction. *Phantom read still can be happened because the lock cannot be applied on the non-existent rows.* 
