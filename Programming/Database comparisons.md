@@ -1,7 +1,7 @@
 ---
 modified: Jun 02, 2026
 ---
-#database #comparisons
+#database #comparisons #lock #semaphore
 ```table-of-contents
 ```
 ## Terminologies & mechanisms
@@ -69,6 +69,12 @@ Isolation level is applied on the transaction when it's initialized.
 ```
 
 > By combining the MVCC and transaction snapshot mechanism & locking, the transaction isolation levels get better performance
+
+### 7. Auto commit setting
+- Most database engine automatically creates implicit transaction for every command (SELECT/UPDATE/DELETE). Depends on the setting autocommit on or off, it decides whether we use manual commands COMMIT/ROLLBACK.
+### 8. Special query syntax with locks (FOR UPDATE, ...)
+- SELECT FOR UPDATE: Use X lock until the data can be read and release after that.
+- Other similar commands: Just use and play with locks, **not related to explicit transaction and isolation level**
 ## Comparisons
 **RDBMS and NoSQL**
 - **RDBMS**: related database, consistent data schema, best for the sensitive business logics (banking, finance, complex JOIN, analytics...) because of the ACID specifications of the RDBMS
