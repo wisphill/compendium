@@ -4,7 +4,7 @@ modified: Jun 02, 2026
 #database #comparisons
 ```table-of-contents
 ```
-## Terminologies
+## Terminologies & mechanisms
 ### 1. Standard consistency & Eventual consistency
 - **Standard consistency**: Locking, all or nothing, **lock** during write transaction to **all nodes** and release lock after synchronizing.
 - **Eventual consistency**: Priority write first for the primary node, then synchronize to other nodes later. Quick write. The user connects to other nodes can see different data. Usually, it's lock free.
@@ -48,12 +48,31 @@ Isolation level is applied on the transaction when it's initialized.
 4. **PHANTOM READ**: Using **Serialized** Isolation Level.
 
 ### 6. MVCC & Snapshotting in transaction.
+#### MVCC
+- Multi version concurrency control using the snapshots, it's modern way to handle the concurrency problems instead using pure isolation with traditional locking.
+- It's in the PostgreSQL & new MySQL InnoDB Engine.
+#### Transaction snapshot mechanism.
+- All transactions in the database are marked with an ID (aka transaction id number)
+- When a new transaction is created, it's marked with a greater ID and the engine starts to create a transaction snapshot.
+- **Transaction snapshot** is system transaction states that include
+  1. **X min**: All the transaction that has ID lower than X min are committed.
+  2. **X max**: The next ID that system will assign this to the next created transaction. *(Without X max, cannot detect the active list transaction)*. **All versioned data after X max are illegal to be read.**
+  3. **Active list transaction**: Transactions have the ID between X min and X max and not committed yet. *(Active list transaction versioned data cannot be read by current transaction that has this snapshot)*
+- The transaction that is assigned with a snapshot can read **committed versioned data** from transactions have **id lower than X min** and **ids > X min & < X max & NOT IN active list transaction (not in active list means committed)** 
 
+**Example**
+```
+1. Current system: [committed transactions: 1 -> 10, active transaction: 11, 12, 13, next granted transaction id: 14]
+2. New 3 transactions: 14, 15, 16
+3. Transaction 14 snapshot: [committed transactions: 1 -> 10, next granted transaction id: 17, transaction 12 is committed -> active transaction list: [11, 13, 15, 16]]
+4. Conclusion: Transaction 14 cannot read the versioned data from: 11, 13, 15, 16, and greater or equal than 17.
+```
+
+> By combining the MVCC and transaction snapshot mechanism & locking, the transaction isolation levels get better performance
 ## Comparisons
 **RDBMS and NoSQL**
 - **RDBMS**: related database, consistent data schema, best for the sensitive business logics (banking, finance, complex JOIN, analytics...) because of the ACID specifications of the RDBMS
 - **NoSQL**: Not fully support and have enough ACID specifications. Dynamic schema, faster scaling, for write heavy. 
-
 ## Pros/Cons of Database
 ### MongoDB
 - Document type database (JSON/BSON), dynamic schema
