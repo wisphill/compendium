@@ -1,7 +1,7 @@
 ---
 modified: Jun 02, 2026
 ---
-#database #comparisons #lock #semaphore
+#database #comparisons #lock #semaphore #mysql #mongodb #cassandra
 ```table-of-contents
 ```
 ## Terminologies & mechanisms
@@ -79,7 +79,25 @@ Isolation level is applied on the transaction when it's initialized.
 **RDBMS and NoSQL**
 - **RDBMS**: related database, consistent data schema, best for the sensitive business logics (banking, finance, complex JOIN, analytics...) because of the ACID specifications of the RDBMS
 - **NoSQL**: Not fully support and have enough ACID specifications. Dynamic schema, faster scaling, for write heavy. 
-## Pros/Cons of Database
+## Pros/Cons of DBMS
 ### MongoDB
 - Document type database (JSON/BSON), dynamic schema
 - Has ACID, but it's **Eventual consistency**
+- **Replicas**: Followers - Leaders.
+- **Design mindset**: Design table, query later
+- No JOIN, using aggregation + lookup *(multiple stages data pipelines, requires indexes on multiple tables - remember to use explain to check the query)*
+### Cassandra
+- Run on a cluster, multiple nodes, **Consistent Hashing** (Hash Ring)
+- No ACID on multiple tables, multiple rows. 
+- **Eventual consistency**, write first, sync later
+- **Replicas**: Data is separated by multiple partitions, each partitions on multiple nodes based on the replication factor (similar like Kafka). Peer  to peer replica (no fixed primary node)
+- **Design mindset**: Know the query first, design the table
+- No JOIN: Instead of that, prefer using database denormalization (store everything in a single record), or join by application code.
+- Adding new node, separate the data to the new node because Cassandra using **Consistent hashing** similar to the Redis cluster.
+- Suitable for: Chat data, Telemetry, IOT data.
+- **Index**: The partitioned data is on a specific node because of consistent hashing, so the partition key is required when querying
+  1. When create a new secondary index (like querying age on the users table), a local index of age will be created on each Cassandra cluster nodes.
+  2. Querying without partition key will scan all nodes, *can lead to error*
+  3. Global indexes are not recommended for Cassandra. Global index is a kind of index that are built for multiple node
+- **Materialized views (beta)**: A secondary table based on the secondary column as a primary keys, write more data to the disk, when saving something to the database. *Async, sometimes, the data can be out of sync, not recommended for production.*
+- **Dual write**: Write more data to the database, similar to materialized views but no asynchronous mechanism. *Recommended for production*

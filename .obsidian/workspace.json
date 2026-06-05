@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Database comparisons.md",
+                "file": "Programming/Database terminologies and comparisons.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Database comparisons"
+              "title": "Database terminologies and comparisons"
             }
           }
         ]
@@ -200,10 +200,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "78214b1f51df0cc8",
+  "active": "b7978ee6e328204c",
   "lastOpenFiles": [
     "AWS/ASG/Launch Template.md",
-    "Programming/Database comparisons.md",
+    "Programming/Database terminologies and comparisons.md",
     "System Design/TODO - Twitch - Room chat real time.md",
     "System Design/Shorten URL.md",
     "System Design/SFTP Server + Reconciliation.md",
