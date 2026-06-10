@@ -2,7 +2,7 @@
 description: AWS Launch template is the similar with Launch Configuration, in that we can specify configuration information like ID of AMI, instance type, SG,...
 layout: post
 ---
-#aws #asg #launch_template #launch_configuration #comparisons
+#aws #asg #launch_template #launch_configuration #comparisions
 
 AWS Launch template is the similar with Launch Configuration, in that we can specify configuration information like ID of AMI, instance type, SG,...
 

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Database terminologies and comparisons.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Database terminologies and comparisons"
+              "title": "index"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#comparisions",
+                "query": "tag:#network",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,8 +85,7 @@
               "title": "Notebook Navigator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -200,20 +199,8 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b7978ee6e328204c",
+  "active": "78214b1f51df0cc8",
   "lastOpenFiles": [
-    "AWS/ASG/Launch Template.md",
-    "Programming/Database terminologies and comparisons.md",
-    "System Design/TODO - Twitch - Room chat real time.md",
-    "System Design/Shorten URL.md",
-    "System Design/SFTP Server + Reconciliation.md",
-    "System Design/Migrate data on prod without downtime.md",
-    "System Design/Redis consistent hashing, hash slots.md",
-    "Excalidraw/Athena.excalidraw.md",
-    "Excalidraw/ASG Standby statuses.excalidraw.md",
-    "Excalidraw/AMS.excalidraw.md",
-    "AWS/DB/Database.md",
-    "index.md",
     "Unity/Animator.md",
     "English/Tenses.md",
     "Unity",
@@ -229,6 +216,18 @@
     "AWS/EC2/EC2 Spot Instance and Spot Fleet.md",
     "AWS/EC2/EC2 Security Group and Classic Ports.md",
     "AWS/EC2/EC2 Public Private IP and Elastic IP.md",
+    "AWS/EC2/EC2 Placement Group.md",
+    "AWS/EC2/EC2 Instance Purchase Options.md",
+    "AWS/EC2/EC2 Hibernate.md",
+    "AWS/EC2/EC2 ENI.md",
+    "AWS/EC2/EC2 EBS.md",
+    "AWS/EC2/EC2 Basics.md",
+    "AWS/EC2/EC2 AMI.md",
+    "AWS/EC2/EC2 (EFS, Instance Store).md",
+    "AWS/EC2/AWS Inspector.md",
+    "AWS/Analytics/Redshift.md",
+    "AWS/Analytics/Quicksight.md",
+    "AWS/Analytics/MSK.md",
     "AWS/Analytics",
     "Blender",
     "Programming/Gaming",
