@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Unity/Fishnet.md",
-                "bFile": "Unity/Fishnet.md",
+                "aFile": "Unity/Untitled.md",
+                "bFile": "Unity/Untitled.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Fishnet  (Working Tree)"
+              "title": "Diff: Untitled  (Working Tree)"
             }
           }
         ]
@@ -200,9 +200,10 @@
   },
   "active": "78214b1f51df0cc8",
   "lastOpenFiles": [
-    "Programming/Database terminologies and comparisons.md",
+    "Unity/Switching CAM.md",
     "Unity/Fishnet.md",
     "Unity/Animator.md",
+    "Programming/Database terminologies and comparisons.md",
     "index.md",
     "Unity/Packages.md",
     "Programming/Database comparisons.md",
@@ -226,7 +227,6 @@
     "AWS/EC2/EC2 ENI.md",
     "AWS/EC2/EC2 EBS.md",
     "AWS/EC2/EC2 Basics.md",
-    "AWS/EC2/EC2 AMI.md",
     "AWS/Analytics",
     "Blender",
     "Programming/Gaming",
