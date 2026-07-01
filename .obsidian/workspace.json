@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a5969d0844d599c7",
+        "id": "bc749821c04c5656",
         "type": "tabs",
         "children": [
           {
-            "id": "78214b1f51df0cc8",
+            "id": "f0aab15310211877",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Unity/Untitled.md",
-                "bFile": "Unity/Untitled.md",
+                "aFile": "Unity/Blender.md",
+                "bFile": "Unity/Blender.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Untitled  (Working Tree)"
+              "title": "Diff: Blender  (Working Tree)"
             }
           }
         ]
@@ -198,35 +198,35 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "78214b1f51df0cc8",
+  "active": "f0aab15310211877",
   "lastOpenFiles": [
-    "Unity/Switching CAM.md",
-    "Unity/Fishnet.md",
+    "Devops/Misc.md",
+    "Devops/TODO - K8S terms and questions.md",
+    "Devops/Terraform, Pulumi, IAC.md",
+    "Devops/Netfilter - iptables, nftables.md",
+    "Devops/Jenkins, CI-CD.md",
+    "Devops/Docker.md",
+    "Devops/Untitled.md",
+    "Devops/Gaming websocket.md",
+    "Devops/Helm.md",
+    "Devops/K8S Cheatsheet.md",
+    "Interview/Interview.md",
+    "Interview/14-5.md",
+    "Programming/Go/Golang.md",
     "Unity/Animator.md",
-    "Programming/Database terminologies and comparisons.md",
-    "index.md",
-    "Unity/Packages.md",
-    "Programming/Database comparisons.md",
-    "English/Tenses.md",
+    "System Design/Design Patterns.md",
+    "System Design/CI, CD for the Unity Games.md",
+    "System Design/Backend auth OIDC.md",
+    "System Design/Architecture.md",
+    "System Design/Twitch chatbot.md",
+    "System Design/Kafka.md",
+    "System Design/Game build CI-CD.md",
+    "Unity/Blender.md",
+    "System Design/Migrate data on prod without downtime.md",
+    "System Design/Redis consistent hashing, hash slots.md",
+    "System Design/SFTP Server + Reconciliation.md",
+    "System Design/Shorten URL.md",
     "Unity",
-    "Linux/Spoofing.md",
-    "Linux/Tools.md",
-    "Linux/macos.md",
-    "Linux/Commands dictionary.md",
-    "Linux/Namespace & Cgroups.md",
-    "AWS/EC2/ECS Execution Command.md",
-    "AWS/EC2/EC2 User Data.md",
-    "AWS/EC2/EC2 Tools.md",
-    "AWS/EC2/EC2 SSH && Instance Connect.md",
-    "AWS/EC2/EC2 Spot Instance and Spot Fleet.md",
-    "AWS/EC2/EC2 Security Group and Classic Ports.md",
-    "AWS/EC2/EC2 Public Private IP and Elastic IP.md",
-    "AWS/EC2/EC2 Placement Group.md",
-    "AWS/EC2/EC2 Instance Purchase Options.md",
-    "AWS/EC2/EC2 Hibernate.md",
-    "AWS/EC2/EC2 ENI.md",
-    "AWS/EC2/EC2 EBS.md",
-    "AWS/EC2/EC2 Basics.md",
     "AWS/Analytics",
     "Blender",
     "Programming/Gaming",

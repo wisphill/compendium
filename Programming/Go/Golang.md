@@ -8,3 +8,5 @@
 - BLACK objects are never be scanned anymore in the same GC cycle > so we need the Write barrier to make sure the WHITE objects are never be cleared and all children of them are scanned as well. 
 - Sweep phase: Sweep all WHITE objects.
 - STW: Cleanup stack of goroutines (local stack variables, pointers), and turn on/off Write barrier. Write Barrier only protects objects in the HEAPs.
+
+GMP in the Golang

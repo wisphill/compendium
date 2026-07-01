@@ -1,0 +1,1 @@
+Alt + S: Scale along with normals
