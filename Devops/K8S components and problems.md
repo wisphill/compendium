@@ -27,7 +27,7 @@
 Package -> ALB -> Node A (random) -> No Ingress -> SNAT (change source IP to node A IP), DNAT (desc IP of node A to ClusterIP of Service Ingress) -> Node B (ingress) -> routing -> backend process 
 
 ### StatefulSet + Headless services
-Headless service: A service with no IP, use DNS only to assign to pod.
+Headless service: A service with no IP, use FQDN only to assign to pod.
 StatefulSet: manages stateful application with unique pod ID, strict ordering deployment increasing from 0. 
 
 ### Downward API

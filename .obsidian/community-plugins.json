@@ -2,9 +2,6 @@
   "obsidian-excalidraw-plugin",
   "lazy-plugins",
   "notebook-navigator",
-  "ink",
   "automatic-table-of-contents",
-  "obsidian-style-settings",
-  "obsidian-git",
-  "mermaid-tools"
+  "obsidian-git"
 ]

@@ -4,21 +4,24 @@ Name: Nguyen Dinh Phi
 
 Work as DevOps/platform/backend engineer for over 7 years. I already did lots of things, passed through lots of different short-term long-term projects, technologies.
 
-I can describe myself as a Jack of all trades, I can make everything from scratch for both backend, frontend, DevOps SRE tasks, 3d game, drawing, modeling.
+I can describe myself as a Jack of all trades, I can make everything from scratch for both backend, frontend, DevOps SRE tasks, 3d game, drawing, modeling. However, my strong points are still DevOps & backend.
 
 I am quick learner, deeply understanding any project, technology, issue, incident, that I have to deal with. 
-I always brought the best solution to the team after investigation various of approaches.
+I always brought the best solution to the team after investigating various of approaches.
 
+So that's basically me.
 ### Abilities
 Adapt any kind of new technologies, quick understanding whole project when joining. 
 
-I was a maintainer of 5 core microservices (wallets, payments, merchants, otac, switch, on-street parking) before. 
+I was a maintainer of 5 core microservices (wallets, payments, merchants, OTAC, switch, on-street parking) before. 
 Owner of the full data ops pipeline flow of the Deputy project.
 
-**Challenge project**: I had one project before, it was 1 month to be finished, spent 2 weeks for learning about the blockchain platform, even the syntax and features of new language. After all, I focused to finish the project on time to give the MVP version to the customer.
+**Challenge project**: I had one project before, it was 1.5 months
+to be finished, spent 2 weeks for learning about the blockchain platform, even the syntax and features of new language. After all, I focused to finish the project on time to give the MVP version to the customer.
 
-### Incident
+### Incidents
 We did not enable API Gateway Access Logs, Authentication failed because of IP `X-Forwarded-For`, check networking, VPC logs, self testing, it cannot reach to the main Lambda/ ECS instance, stuck at the Lambda authorized function. 
 
-Cannot run any pipelines, OOM because of the php unit test mem leaked. Check Jenkin datadog memory metric >> pipeline metrics >> All pipeline got very high memory (Checking most RAM intensive container). 
+Cannot run any pipelines, OOM because of the php unit test memory leaked. Check Jenkin Data memory metric >> pipeline metrics >> All pipeline got very high memory (Checking most RAM intensive container). 
 
+S1 incident, customers cannot pay after releasing a new feature, it's because of the backward compatibility of the payment service because of changing on the API side. It's mid night alert based on the HTTP statuses of important requests. 

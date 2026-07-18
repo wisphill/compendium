@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bc749821c04c5656",
+        "id": "f634ab69c85247a3",
         "type": "tabs",
         "children": [
           {
-            "id": "f0aab15310211877",
+            "id": "02932079e5c288ba",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Unity/Blender.md",
-                "bFile": "Unity/Blender.md",
+                "aFile": "Programming/Go/Cheatsheet.md",
+                "bFile": "Programming/Go/Cheatsheet.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Blender  (Working Tree)"
+              "title": "Diff: Cheatsheet  (Working Tree)"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#network",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,16 +165,6 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "614f3ad516bd03ec",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
-            }
           }
         ],
         "currentTab": 4
@@ -194,38 +184,37 @@
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "notebook-navigator:Notebook Navigator": false,
-      "obsidian-git:Open Git source control": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0aab15310211877",
+  "active": "b7978ee6e328204c",
   "lastOpenFiles": [
-    "Devops/Misc.md",
-    "Devops/TODO - K8S terms and questions.md",
-    "Devops/Terraform, Pulumi, IAC.md",
-    "Devops/Netfilter - iptables, nftables.md",
-    "Devops/Jenkins, CI-CD.md",
+    "Excalidraw/AMS.excalidraw.md",
+    "Interview/Interview.md",
     "Devops/Docker.md",
-    "Devops/Untitled.md",
+    "Devops/Terraform, Pulumi, IAC.md",
+    "Devops/TLS Handshake, Termination.md",
+    "Devops/Prometheous.md",
+    "Devops/Netfilter - iptables, nftables.md",
+    "Devops/Networking Docker, Linux.md",
+    "Devops/NFS, EBS, Volume terminologies.md",
+    "Devops/K8S components and problems.md",
+    "Devops/Linux.md",
+    "Devops/Linux to Azure (Windows).md",
+    "Devops/Local development.md",
+    "Devops/K8S Cheatsheet.md",
+    "Devops/Jenkins, CI-CD.md",
     "Devops/Gaming websocket.md",
     "Devops/Helm.md",
-    "Devops/K8S Cheatsheet.md",
-    "Interview/Interview.md",
-    "Interview/14-5.md",
+    "Programming/Algorithm/Notes.md",
+    "Programming/Go/Cheatsheet.md",
+    "index.md",
+    "BAN.md",
+    "Linux/Commands dictionary.md",
+    "Linux/macos.md",
+    "Linux/Spoofing.md",
     "Programming/Go/Golang.md",
-    "Unity/Animator.md",
-    "System Design/Design Patterns.md",
-    "System Design/CI, CD for the Unity Games.md",
-    "System Design/Backend auth OIDC.md",
-    "System Design/Architecture.md",
-    "System Design/Twitch chatbot.md",
-    "System Design/Kafka.md",
-    "System Design/Game build CI-CD.md",
-    "Unity/Blender.md",
-    "System Design/Migrate data on prod without downtime.md",
-    "System Design/Redis consistent hashing, hash slots.md",
-    "System Design/SFTP Server + Reconciliation.md",
-    "System Design/Shorten URL.md",
+    "Programming/Java/Java Core.md",
     "Unity",
     "AWS/Analytics",
     "Blender",

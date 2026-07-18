@@ -1,5 +1,9 @@
+#docker 
+
 ```table-of-contents
 ```
+## Docker host
+Same network with host
 ## Docker networking
 1. Docker will create veth for each container, from host to the container
 2. Docker bridge is the virtual router to route packages between container, they can see each others

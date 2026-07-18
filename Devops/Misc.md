@@ -1,8 +1,8 @@
 Cloudflare nên dùng cho HTTP, HTTPS, với websocket cần duy trì quá nhiều connections > not good
 
-
 ### Check bugs
-- Is there any new deployment
+- Is there any new deployment?
+- State of the system, containers, is that still running or CrashBackLoop?
 - Is there any new infra changes?
 - Random error? Could be the infra error? Deterministic error? Could be the logic code
 - Correlation with the traffic spike? Could be the infra bottleneck
