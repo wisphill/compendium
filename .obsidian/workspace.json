@@ -4,21 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f634ab69c85247a3",
+        "id": "1500be469cfe18fd",
         "type": "tabs",
         "children": [
           {
-            "id": "02932079e5c288ba",
+            "id": "20e65399111340a8",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Programming/Go/Cheatsheet.md",
-                "bFile": "Programming/Go/Cheatsheet.md",
-                "aRef": ""
+                "file": "Linux/macos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "diff",
-              "title": "Diff: Cheatsheet  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "macos"
             }
           }
         ]
@@ -187,34 +188,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7978ee6e328204c",
+  "active": "20e65399111340a8",
   "lastOpenFiles": [
-    "Excalidraw/AMS.excalidraw.md",
-    "Interview/Interview.md",
-    "Devops/Docker.md",
-    "Devops/Terraform, Pulumi, IAC.md",
-    "Devops/TLS Handshake, Termination.md",
-    "Devops/Prometheous.md",
-    "Devops/Netfilter - iptables, nftables.md",
-    "Devops/Networking Docker, Linux.md",
-    "Devops/NFS, EBS, Volume terminologies.md",
-    "Devops/K8S components and problems.md",
-    "Devops/Linux.md",
-    "Devops/Linux to Azure (Windows).md",
-    "Devops/Local development.md",
-    "Devops/K8S Cheatsheet.md",
-    "Devops/Jenkins, CI-CD.md",
-    "Devops/Gaming websocket.md",
-    "Devops/Helm.md",
-    "Programming/Algorithm/Notes.md",
-    "Programming/Go/Cheatsheet.md",
-    "index.md",
-    "BAN.md",
     "Linux/Commands dictionary.md",
-    "Linux/macos.md",
+    "Linux/Tools.md",
     "Linux/Spoofing.md",
-    "Programming/Go/Golang.md",
-    "Programming/Java/Java Core.md",
+    "Linux/macos.md",
+    "AWS/Network debugging.md",
+    "AWS/Analytics/Redshift.md",
+    "AWS/Analytics/Quicksight.md",
+    "AWS/Analytics/MSK.md",
+    "AWS/Analytics/Lake Formation.md",
+    "AWS/Analytics/Kinesis Data Analytics.md",
+    "AWS/Analytics/Glue.md",
+    "AWS/Analytics/EMR.md",
+    "AWS/Analytics/Big Data Ingestion Pipeline.md",
+    "AWS/Analytics/AWS OpenSearch.md",
+    "AWS/Analytics/Athena.md",
+    "Programming/Stack, Heap, Rust and Go.md",
+    "BAN.md",
+    "Interview/Interview.md",
+    "Programming/Algorithm/Exactly-one delivery.md",
+    "Programming/Algorithm/CSharp.md",
+    "Programming/C Sharp/C Sharp 101.md",
+    "Programming/C Sharp/Design patterns, OOP, SOLID.md",
+    "Devops/TLS Handshake, Termination.md",
+    "Devops/Terraform, Pulumi, IAC.md",
+    "Devops/Setup K8S server on the Windows.md",
+    "Devops/Jenkins, CI-CD.md",
     "Unity",
     "AWS/Analytics",
     "Blender",
