@@ -5,6 +5,9 @@
   "baseFontSize": 15,
   "theme": "moonstone",
   "cssTheme": "",
+  "enabledCssSnippets": [
+    "true-recall-cards"
+  ],
   "nativeMenus": true,
   "showViewHeader": true,
   "baseFontSizeAction": true,

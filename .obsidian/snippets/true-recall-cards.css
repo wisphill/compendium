@@ -1,0 +1,53 @@
+/* Compact, left-aligned True Recall cards with a rotating accent palette. */
+.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong) {
+  --card-accent: #e76f51;
+
+  background: var(--background-primary);
+  border: 3px solid var(--card-accent);
+  border-radius: 0.45rem;
+  box-shadow: 6px 6px 0 var(--card-accent);
+  box-sizing: border-box;
+  margin: 0.85rem 0 1.2rem;
+  padding: 0.85rem 1rem;
+  text-align: left;
+}
+
+.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong):nth-of-type(6n + 1) {
+  --card-accent: #e76f51;
+}
+
+.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong):nth-of-type(6n + 2) {
+  --card-accent: #457b9d;
+}
+
+.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong):nth-of-type(6n + 3) {
+  --card-accent: #6a994e;
+}
+
+.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong):nth-of-type(6n + 4) {
+  --card-accent: #9b5de5;
+}
+
+.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong):nth-of-type(6n + 5) {
+  --card-accent: #f4a261;
+}
+
+.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong):nth-of-type(6n) {
+  --card-accent: #2a9d8f;
+}
+
+.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong) p {
+  margin-block: 0.35rem;
+}
+
+.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong) p:first-child {
+  margin-top: 0;
+}
+
+.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong) p:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong) strong {
+  color: var(--text-normal);
+}

@@ -1,11 +1,14 @@
 ---
 flashcard_uid: 9732085c
+cssclasses: true-recall-cards
 ---
 #flashcards
+
+
 **What is the entry point of an executable Go program?**
 ??
 The `main` function in `package main`.
-<!-- true-recall: {"v":1,"id":"770c5b97-c550-41c9-919c-e1b73a8fb121","schedules":[{"updatedAt":1793523989260,"due":"2026-11-01T09:06:29.260Z","stability":0,"difficulty":0,"reps":0,"lapses":0,"state":0,"lastReview":null,"scheduledDays":0,"learningStep":0,"suspended":false,"createdAt":1793523989260}],"bases":{"dagoj9f7":{"front":"a5f0387fbf06fdfd331f8620b9e33d2ed42d09c6a26da6bdf7330212234468f7","back":"78ffe735d4e8eb33aa55fa769ec39e6b4f0b17e2217e42cf8e39c5f821e2ed66","reversed":false}}} -->
+<!-- true-recall: {"v":1,"id":"770c5b97-c550-41c9-919c-e1b73a8fb121","schedules":[{"updatedAt":1793523989260,"due":"2026-11-01T09:06:29.260Z","stability":0,"difficulty":0,"reps":0,"lapses":0,"state":0,"lastReview":null,"scheduledDays":0,"learningStep":0,"suspended":false,"createdAt":1793523989260}],"bases":{"dagoj9f7":{"front":"b187fb8820f2cf181f2bcb000d3e4a453dc90afd3410f9e73ea25b4ce90c2f7b","back":"78ffe735d4e8eb33aa55fa769ec39e6b4f0b17e2217e42cf8e39c5f821e2ed66","reversed":false}}} -->
 
 **What is the difference between `var` and `:=`?**
 ??
