@@ -276,7 +276,7 @@
   "markdownFlashcards": {
     "enabled": true,
     "tag": "flashcards",
-    "basicSeparator": "??",
+    "basicSeparator": "<span class=\"tr-card-separator\">??</span>",
     "reversedSeparator": "???",
     "storeScheduling": true
   }

@@ -1,39 +1,23 @@
-/* Compact, left-aligned True Recall cards with a rotating accent palette. */
+/* Soft, rounded chat-bubble cards for True Recall Markdown flashcards. */
 .markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong) {
-  --card-accent: #e76f51;
+  --bubble-background: color-mix(in srgb, var(--background-secondary) 88%, white);
 
-  background: var(--background-primary);
-  border: 3px solid var(--card-accent);
-  border-radius: 0.45rem;
-  box-shadow: 6px 6px 0 var(--card-accent);
+  background: var(--bubble-background);
+  border: 0;
+  border-radius: 2rem;
+  box-shadow: none;
   box-sizing: border-box;
-  margin: 0.85rem 0 1.2rem;
-  padding: 0.85rem 1rem;
+  margin: 0.85rem 0;
+  padding: 1rem 1.25rem;
   text-align: left;
 }
 
-.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong):nth-of-type(6n + 1) {
-  --card-accent: #e76f51;
+.markdown-reading-view .markdown-preview-sizer .el-p:has(.tr-tail-left) {
+  border-bottom-left-radius: 0;
 }
 
-.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong):nth-of-type(6n + 2) {
-  --card-accent: #457b9d;
-}
-
-.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong):nth-of-type(6n + 3) {
-  --card-accent: #6a994e;
-}
-
-.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong):nth-of-type(6n + 4) {
-  --card-accent: #9b5de5;
-}
-
-.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong):nth-of-type(6n + 5) {
-  --card-accent: #f4a261;
-}
-
-.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong):nth-of-type(6n) {
-  --card-accent: #2a9d8f;
+.markdown-reading-view .markdown-preview-sizer .el-p:has(.tr-tail-right) {
+  border-bottom-right-radius: 0;
 }
 
 .markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong) p {
@@ -50,4 +34,22 @@
 
 .markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong) strong {
   color: var(--text-normal);
+}
+
+.markdown-reading-view .markdown-preview-sizer .el-p:has(> p > strong) strong::before {
+  content: "Q: ";
+}
+
+.markdown-reading-view .tr-card-answer::before {
+  content: "A: ";
+  font-weight: 700;
+}
+
+.markdown-reading-view .tr-card-separator {
+  display: none;
+}
+
+/* Remove only the separator's leading break; retain one Q&A line break. */
+.markdown-reading-view br:has(+ .tr-card-separator) {
+  display: none;
 }

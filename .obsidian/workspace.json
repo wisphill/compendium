@@ -21,6 +21,30 @@
               "icon": "lucide-file",
               "title": "Golang Question Bank"
             }
+          },
+          {
+            "id": "7f37e86d6ab3ff62",
+            "type": "leaf",
+            "state": {
+              "type": "true-recall-dashboard-view",
+              "state": {},
+              "icon": "layout-dashboard",
+              "title": "Dashboard"
+            }
+          },
+          {
+            "id": "027df1de69eb3b84",
+            "type": "leaf",
+            "state": {
+              "type": "true-recall-review",
+              "state": {
+                "schedulingMode": "due",
+                "sessionKey": "all-due:{}",
+                "sessionLabel": "Today"
+              },
+              "icon": "brain",
+              "title": "Review · Today"
+            }
           }
         ]
       }
@@ -81,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 236.8612060546875
   },
   "right": {
     "id": "c4863aa7eb52dd74",
@@ -134,8 +158,10 @@
   },
   "active": "895fd1c8d81d957b",
   "lastOpenFiles": [
-    "Programming/Go/Golang.md",
+    "Golang.md",
+    "Excalidraw/Drawing 2026-11-01 22.24.44.excalidraw.md",
     "Programming/Go/Golang Question Bank.md",
+    "Programming/Go/Golang.md",
     "Programming/Stack, Heap, Rust and Go.md",
     "AI/Test planner, generator, healer.md",
     "Programming/Go/True Recalll.md",
@@ -158,7 +184,6 @@
     "Devops/Setup K8S server on the Windows.md",
     "Untitled 1.md",
     "Devops/Prometheous.md",
-    "Devops/NFS, EBS, Volume terminologies.md",
     "Unity",
     "AWS/Analytics",
     "Blender",
