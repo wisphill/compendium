@@ -3,5 +3,6 @@
   "lazy-plugins",
   "notebook-navigator",
   "automatic-table-of-contents",
-  "obsidian-git"
+  "obsidian-git",
+  "true-recall"
 ]

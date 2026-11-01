@@ -41,6 +41,15 @@
       },
       "mermaid-tools": {
         "startupType": "instant"
+      },
+      "learnkit": {
+        "startupType": "instant"
+      },
+      "obsidian-spaced-repetition": {
+        "startupType": "disabled"
+      },
+      "true-recall": {
+        "startupType": "instant"
       }
     }
   },
@@ -74,6 +83,9 @@
         "startupType": "instant"
       },
       "automatic-table-of-contents": {
+        "startupType": "instant"
+      },
+      "obsidian-git": {
         "startupType": "instant"
       }
     }

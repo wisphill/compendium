@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview/Interview.md",
+                "file": "System Design/Redis consistent hashing, hash slots.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Interview"
+              "title": "Redis consistent hashing, hash slots"
             }
           }
         ]
@@ -38,7 +38,9 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
@@ -50,7 +52,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "#",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -77,16 +79,6 @@
         }
       },
       {
-        "id": "624d08f600e6311b",
-        "type": "leaf",
-        "state": {
-          "type": "bookmarks",
-          "state": {},
-          "icon": "lucide-bookmark",
-          "title": "Bookmarks"
-        }
-      },
-      {
         "id": "2103bfcfe118a5cf",
         "type": "leaf",
         "state": {
@@ -102,69 +94,23 @@
   "right": {
     "id": "a21609bf08baa015",
     "type": "mobile-drawer",
-    "children": [
-      {
-        "id": "bf46124f413cc794",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "Interview/Interview.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
-          },
-          "icon": "links-coming-in",
-          "title": "Backlinks"
-        }
-      },
-      {
-        "id": "d982a788298bc297",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          },
-          "icon": "links-going-out",
-          "title": "Outgoing links"
-        }
-      },
-      {
-        "id": "ac6569964a797a50",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "followCursor": false,
-            "showSearch": false,
-            "searchQuery": ""
-          },
-          "icon": "lucide-list",
-          "title": "Outline"
-        }
-      }
-    ],
-    "currentTab": 0
+    "children": [],
+    "currentTab": -1
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
   "active": "5c1532e00d8dcb13",
   "lastOpenFiles": [
+    "System Design/Shorten URL.md",
+    "System Design/Twitch chatbot.md",
+    "System Design/Game build CI-CD.md",
+    "System Design/CI, CD for the Unity Games.md",
+    "System Design/Backend auth OIDC.md",
+    "System Design/Architecture.md",
+    "SRE/P95 P90 P50.md",
     "Devops/Docker.md",
     "English/Tenses.md",
     "Interview/14-5.md",
@@ -185,13 +131,6 @@
     "Recovery codes & passwords/Okta.md",
     "Programming/Gaming",
     "Password.md",
-    "Chaos/Chaos Engineering.md",
-    "System Design/Design Patterns.md",
-    "System Design/Architecture.md",
-    "System Design/SFTP Server + Reconciliation.md",
-    "System Design/CI, CD for the Unity Games.md",
-    "Devops/Linux.md",
-    "Devops/Netfilter - iptables, nftables.md",
     "Ink/Drawing/2025.12.27 - 3.45am.drawing",
     "Ink/Drawing",
     "Ink",

@@ -58,3 +58,4 @@ Ctrl+g          Cancel the search and restore original line
 
 Ctrl+xx         Toggle between first and current position
 ```
+

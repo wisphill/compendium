@@ -5,6 +5,10 @@
 colima start --memory=8 --cpu=4 --network-address
 
 ps aux | grep [pid]
+
+## check pmset logs
+pmset -g log | grep -i "wake"
+pmset -g log | grep -iE "wake|wake reason"
 ```
 
 # Load testing
