@@ -1,0 +1,71 @@
+/* Continuous black title and tab bar. Native macOS window controls remain system-managed. */
+body,
+.app-container,
+.titlebar,
+.workspace-tab-header-container,
+.workspace-tab-header-container-inner {
+  background-color: #000 !important;
+}
+
+.workspace-tab-header-container,
+.workspace-tab-header-container-inner {
+  border-color: #000 !important;
+}
+
+/* The ribbon's existing title-height spacer. */
+.workspace-ribbon.side-dock-ribbon.mod-primary::before {
+  background-color: #000 !important;
+  border-color: #000 !important;
+}
+
+.workspace-tab-header {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+.workspace-tab-header,
+.workspace-tab-header.is-active,
+.workspace-tab-header:hover {
+  color: #fff !important;
+}
+
+.workspace-tab-header-inner-title,
+.workspace-tab-header-inner-icon,
+.workspace-tab-header-status-icon,
+.titlebar-text {
+  color: #fff !important;
+}
+
+.workspace-tab-header:hover,
+.workspace-tab-header.is-active {
+  background-color: #1c1c1c !important;
+  border-radius: 0 !important;
+}
+
+/* Left and right sidebar collapse / expand controls. */
+.sidebar-toggle-button,
+.sidebar-toggle-button:hover,
+.sidebar-toggle-button:active {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.sidebar-toggle-button svg,
+.sidebar-toggle-button svg * {
+  color: #fff !important;
+  stroke: currentColor !important;
+}
+
+.sidebar-toggle-button svg {
+  fill: none !important;
+}
+
+/* Moonstone adds tab-corner decorations with pseudo-elements. */
+.workspace-tab-header::before,
+.workspace-tab-header::after,
+.workspace-tab-header.is-active::before,
+.workspace-tab-header.is-active::after {
+  display: none !important;
+}

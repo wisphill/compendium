@@ -6,7 +6,8 @@
   "theme": "moonstone",
   "cssTheme": "",
   "enabledCssSnippets": [
-    "true-recall-cards"
+    "true-recall-cards",
+    "black-title-bar"
   ],
   "nativeMenus": true,
   "showViewHeader": true,
