@@ -31,7 +31,8 @@
               "title": "Review · Today"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.92987060546875
+    "width": 266.825927734375
   },
   "right": {
     "id": "c4863aa7eb52dd74",
@@ -130,7 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 237.20281982421875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -141,7 +142,7 @@
       "true-recall:True Recall: Open dashboard": false
     }
   },
-  "active": "7f37e86d6ab3ff62",
+  "active": "027df1de69eb3b84",
   "lastOpenFiles": [
     "Programming/Go/Golang Question Bank.md",
     "Golang.md",
