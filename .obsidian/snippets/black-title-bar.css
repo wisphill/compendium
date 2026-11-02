@@ -1,6 +1,7 @@
 /* Dark title and tab bar. Native macOS window controls remain system-managed. */
 :root {
   --dark-titlebar-color: #2e3036;
+  --active-tab-color: #36383f;
 }
 
 body,
@@ -62,7 +63,18 @@ body,
 .workspace-tab-header:hover,
 .workspace-tab-header.is-active {
   background-color: #1c1c1c !important;
-  border-radius: 0 !important;
+}
+
+.workspace-tab-header.is-active {
+  background-color: var(--active-tab-color) !important;
+  color: #fff !important;
+  border-radius: 6px 6px 0 0 !important;
+}
+
+.workspace-tab-header.is-active .workspace-tab-header-inner-title,
+.workspace-tab-header.is-active .workspace-tab-header-inner-icon,
+.workspace-tab-header.is-active .workspace-tab-header-status-icon {
+  color: #fff !important;
 }
 
 /* Left and right sidebar collapse / expand controls. */
@@ -88,5 +100,9 @@ body,
 .workspace-tab-header::after,
 .workspace-tab-header.is-active::before,
 .workspace-tab-header.is-active::after {
+  display: none !important;
+}
+
+.workspace-tab-header-inner::after {
   display: none !important;
 }
