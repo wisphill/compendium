@@ -4,5 +4,7 @@
   "notebook-navigator",
   "automatic-table-of-contents",
   "obsidian-git",
-  "true-recall"
+  "true-recall",
+  "js-engine",
+  "embed-html"
 ]

@@ -7,7 +7,7 @@
   "cssTheme": "",
   "enabledCssSnippets": [
     "true-recall-cards",
-    "black-title-bar"
+    "true-recall-answer-black"
   ],
   "nativeMenus": true,
   "showViewHeader": true,

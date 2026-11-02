@@ -1,0 +1,4 @@
+/* Ensure True Recall answers remain black, regardless of the active theme. */
+.tr-card-answer {
+  color: #000 !important;
+}

@@ -10,6 +10,8 @@
 - Khai báo: `s := []int{}` hoặc `s := make([]int, length, capacity)`
 - Thêm phần tử: `s = append(s, val)`
 - Cắt slice: `sub := s[start:end]` (không gồm end)
+- Slice là một view trên backing array: gán `s[i] = value` sẽ cập nhật phần tử tương ứng trong mảng (và các slice khác cùng backing array).
+- Lưu ý `append`: nếu vượt capacity, Go có thể cấp phát backing array mới; các thay đổi sau đó sẽ không còn cập nhật mảng/slice ban đầu.
 - Copy slice: `copy(dest, src)` (phải `make` dest trước)
 - Xóa phần tử tại i: `s = append(s[:i], s[i+1:]...)`
 

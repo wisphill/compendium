@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fb328a1748162815",
+        "id": "49bdbcd4b710fd1d",
         "type": "tabs",
         "children": [
           {
-            "id": "7f37e86d6ab3ff62",
+            "id": "042b2ac2d1e7a920",
             "type": "leaf",
             "state": {
               "type": "true-recall-dashboard-view",
@@ -18,21 +18,41 @@
             }
           },
           {
-            "id": "027df1de69eb3b84",
+            "id": "89a3fac8bdf798b6",
             "type": "leaf",
             "state": {
               "type": "true-recall-review",
               "state": {
+                "projectPath": "Golang.md",
+                "sourceNoteFilters": [
+                  "Golang Question Bank"
+                ],
+                "ignoreDailyLimits": true,
                 "schedulingMode": "due",
-                "sessionKey": "all-due:{}",
-                "sessionLabel": "Today"
+                "sessionKey": "notes:uid:9732085c:all:{}",
+                "sessionLabel": "Golang Question Bank"
               },
               "icon": "brain",
-              "title": "Review · Today"
+              "title": "Review · Golang Question Bank"
+            }
+          },
+          {
+            "id": "0cf79d04e06d674a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/Go/Golang terminologies.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Golang terminologies"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -91,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.825927734375
+    "width": 231.55148315429688
   },
   "right": {
     "id": "c4863aa7eb52dd74",
@@ -142,21 +162,28 @@
       "true-recall:True Recall: Open dashboard": false
     }
   },
-  "active": "b7978ee6e328204c",
+  "active": "0cf79d04e06d674a",
   "lastOpenFiles": [
     "Programming/Go/Golang Question Bank.md",
+    "Programming/Go/Cheatsheet.md",
+    "Programming/Go/Golang terminologies.md",
+    "Programming/Go/GMP Scheduler Model.svg",
+    "Programming/Database terminologies and comparisons.md",
+    "Programming/React.md",
+    "Programming/Yield statement and Generator function.md",
+    "Programming/Stack, Heap, Rust and Go.md",
+    "System Design/Twitch chatbot.md",
+    "System Design/Write Barrier Simulator.md",
+    "System Design/Write Barrier D3 Simulator.html",
+    "System Design/Write Barrier D3 Simulator.md",
     "Golang.md",
     "Excalidraw/Drawing 2026-11-01 22.24.44.excalidraw.md",
-    "Programming/Go/Golang.md",
-    "Programming/Stack, Heap, Rust and Go.md",
     "AI/Test planner, generator, healer.md",
     "Programming/Go/True Recalll.md",
-    "Programming/Go/Cheatsheet.md",
     "Programming/Go/Test LearnKit.md",
     "AGENTS.md",
     "Devops/Gaming websocket.md",
     "Untitled.md",
-    "Programming/Database terminologies and comparisons.md",
     "Devops/K8S components and problems.md",
     "Devops/K8S Cheatsheet.md",
     "Devops/Docker.md",
@@ -164,12 +191,6 @@
     "AWS/VPC/Interface Endpoint, Gateway Endpoint, GWLB Endpoint.md",
     "Devops/Jenkins, CI-CD.md",
     "Excalidraw/AMS.excalidraw.md",
-    "Linux/macos.md",
-    "Excalidraw/Drawing 2026-08-16 00.38.17.excalidraw.md",
-    "Excalidraw/Drawing 2026-08-11 17.34.56.excalidraw.md",
-    "Devops/Setup K8S server on the Windows.md",
-    "Untitled 1.md",
-    "Devops/Prometheous.md",
     "Unity",
     "AWS/Analytics",
     "Blender",
@@ -179,7 +200,6 @@
     "Programming/NodeJS",
     "Programming/Frontend",
     "Pasted image 20260320150930.png",
-    "Recovery codes & passwords",
-    "Chaos"
+    "Recovery codes & passwords"
   ]
 }
